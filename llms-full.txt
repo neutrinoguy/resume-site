@@ -1,0 +1,155 @@
+# Aagam Shah (neutrinoguy) - Complete Resume & Technical Dossier
+
+> Cyber Security Technical Lead at ABB · Offensive & Defensive AI Security Researcher · Bugs 🐞 and Shrugs 🤷
+
+## Contact & Online Coordinates
+- **Email:** hello@hexlab.xyz
+- **Website:** https://neutrinoguy.zip / https://hexlab.xyz
+- **GitHub:** https://github.com/neutrinoguy
+- **LinkedIn:** https://linkedin.com/in/neutrinoguy
+- **X / Twitter:** https://x.com/neutrinoguy
+- **Medium:** https://neutrinoguy.medium.com
+- **Advisory Feed:** https://hexlab.xyz/feed.xml
+- **Location:** Bengaluru, Karnataka, India
+
+---
+
+## Executive Summary
+Cyber Security Technical Lead and security researcher specializing in Industrial Control Systems (ICS/OT) and Offensive & Defensive AI Security. Extensive track record leading threat modeling for complex products in the design phase, performing penetration testing across embedded systems, firmware, cloud, mobile, and APIs, and driving security certifications (ISO 27001:2013 and IEC 62443-4-1:2018). Passionate about adversarial AI red teaming, prompt injection and jailbreak defense engineering, open-source security tool development, and publishing responsible vulnerability disclosures.
+
+---
+
+## Professional Experience
+
+### Cyber Security Technical Lead — ABB
+**Jun 2024 – Present | Bengaluru, Karnataka, India · Hybrid**
+- **Penetration Testing:** Architected and executed comprehensive penetration testing across embedded devices, cloud services, APIs, mobile applications, and thick clients.
+- **Threat Modeling:** Spearheaded design-phase threat modeling for industrial and cloud-native solutions, identifying attack surfaces before production release.
+- **Vulnerability Research:** Conducted deep protocol fuzzing and vulnerability analysis on proprietary and open industrial automation protocols.
+- **AI Security:** Led exploratory initiatives in offensive & defensive AI applications, including adversarial robustness and LLM red teaming.
+- **Compliance & Certification:** Steered successful third-party audits achieving ISO 27001:2013 and IEC 62443-4-1:2018 certifications.
+- **Technical Leadership:** Mentored emerging cybersecurity engineers, acted as subject matter expert (SME), and fulfilled Scrum Master duties.
+
+### Senior Cyber Security Engineer — ABB
+**Nov 2021 – Jun 2024**
+- Conducted firmware reverse engineering, binary analysis, and hardware threat modeling.
+- Developed proof-of-concept (PoC) exploits to validate mitigation strategies on operational hardware.
+- Executed continuous penetration tests and managed agile security backlog sprints.
+
+### Cyber Security Engineer — ABB
+**Jun 2020 – Oct 2021**
+- Led ICS/SCADA penetration testing on industrial controllers and fieldbus communication stacks.
+- Integrated DevSecOps automation into continuous integration and delivery pipelines.
+- Formulated threat models for emerging industrial architectures.
+
+### Cyber Security Intern — ABB
+**Jun 2019 – May 2020**
+- Executed security testing on embedded firmware and microcontrollers.
+- Developed automated protocol fuzzing scripts to detect memory corruption vulnerabilities.
+
+### Cyber Security Intern — Cyber Cell Ahmedabad
+**Jan 2019 – Mar 2019**
+- Assisted cybercrime investigators on active digital forensics and incident response cases.
+- Conducted open-source intelligence (OSINT) investigations and dark web surveillance.
+
+---
+
+## Disclosed CVEs & Security Advisories
+
+### CVE-2022-22987: Advantech ADAM-3600
+- **Severity:** Critical (CVSS v3.1: 9.8)
+- **Target Component:** Advantech ADAM-3600 (firmware up to v2.6.2)
+- **Vulnerability Detail:** Hardcoded private key in the project directory allowed unauthenticated remote attackers to gain administrative web server access.
+- **Official Advisory:** CISA Advisory ICSA-22-032-02 (https://www.cisa.gov/uscert/ics/advisories/icsa-22-032-02)
+
+### CVE-2023-24181: OpenWrt LuCI Reflected XSS
+- **Severity:** Medium (CWE-79)
+- **Target Component:** OpenWrt LuCI (branch openwrt-22.03) via `/openvpn/pageswitch.htm`
+- **Vulnerability Detail:** Reflected Cross-Site Scripting (XSS) allowing execution of arbitrary JavaScript in the context of an authenticated administrator session.
+- **Official Advisory:** NVD CVE-2023-24181 (https://nvd.nist.gov/vuln/detail/CVE-2023-24181)
+
+### CVE-2023-24182: OpenWrt LuCI Stored XSS
+- **Severity:** Medium (CWE-79)
+- **Target Component:** OpenWrt LuCI (branch openwrt-22.03) via `/system/sshkeys.js`
+- **Vulnerability Detail:** Stored Cross-Site Scripting (XSS) enabling persistent payload execution within the web management console.
+- **Official Advisory:** NVD CVE-2023-24182 (https://nvd.nist.gov/vuln/detail/CVE-2023-24182)
+
+---
+
+## Featured Open Source Projects
+
+### TimeHammer
+- **URL:** https://github.com/neutrinoguy/timehammer
+- **Language:** Go
+- **Summary:** Cross-platform Network Time Protocol (NTP) security and resilience testing tool built specifically for IoT and embedded devices. Features an interactive terminal UI (TUI) to simulate clock drift, time spoofing, Kiss-of-Death packets, client fuzzing, and Y2K38 rollovers.
+
+### VoidProbe
+- **URL:** https://github.com/neutrinoguy/VoidProbe
+- **Language:** Go
+- **Summary:** Real-time monitoring and security assessment tool for Linux-based embedded systems. Assesses devices against IEC 62443-4-2 Denial of Service (DoS) Resistance and Resilience to Resource Management (DRRM) requirements via lightweight SSH telemetry agents.
+
+### Devicestats (Drozer Module)
+- **URL:** https://github.com/neutrinoguy/devicestats
+- **Language:** Python
+- **Summary:** Custom module for the Drozer mobile security assessment framework to extract hardware, operating system, and security configuration telemetry from target Android devices.
+
+### Awesome-ICS-Writeups
+- **URL:** https://github.com/neutrinoguy/awesome-ics-writeups
+- **Summary:** Curated collection of industrial cybersecurity resources, SCADA exploit writeups, architecture guides, and threat assessments.
+
+### Cloud Honeypot & Analytics Pipeline
+- **Stack:** GCP, Cowrie, adbhoney, Elasticsearch, Logstash, Kibana (ELK)
+- **Summary:** Deployed automated distributed honeypots on Google Cloud Platform to collect, analyze, and visualize real-time attacker behavioral telemetry.
+
+---
+
+## Standards & Research Contributions
+- **MITRE ATT&CK for ICS:** Official content contributor documenting Technique T1694/002: Hardcoded Credentials (https://attack.mitre.org/techniques/T1694/002/).
+- **CVSS 4.0 Special Interest Group (SIG):** Active contributor refining common vulnerability scoring metrics.
+- **MITRE ICS/OT Special Interest Group (SIG):** Active participant in threat matrix mapping for industrial operational environments.
+- **CIRCL Vulnerability Lookup:** Contributed CSAF (Common Security Advisory Framework) feed integrations.
+- **Open-Source Tool Contributions:** Code contributor to EMBA (firmware analyzer), Photon, and Reconnoitre.
+
+---
+
+## Industry Acknowledgements (Hall of Fame)
+Vulnerability disclosures officially acknowledged by:
+- United Nations (UNITE Hall of Fame)
+- Sony (Hall of Thanks)
+- Alibaba (Security Top)
+- Opera (Hall of Fame)
+- Sophos (Responsible Disclosure Policy Thanks)
+- Honeywell (Product Security Advisory)
+- Naver (Hall of Fame)
+- Intel (Vulnerability Disclosure Program)
+- ForgeRock (VDP)
+- Prezi (VDP)
+- NCIIPC India (National Critical Information Infrastructure Protection Centre)
+- Dutch Government (NCSC-NL)
+
+---
+
+## Education
+- **Master of Technology (M.Tech) in Cyber Security & Incident Response**
+  - National Forensic Sciences University (NFSU), Gandhinagar | 2018 – 2020
+- **Bachelor of Technology (B.Tech) in Computer Engineering**
+  - Gujarat Technological University (GTU) | 2014 – 2018
+
+---
+
+## Professional Certifications
+- **ISA/IEC 62443 Cybersecurity Expert** (All four certification levels completed: Fundamentals, Risk Assessment, Design, Maintenance)
+- **CEH (Certified Ethical Hacker) v13**
+- **Docker Certified Associate (DCA)**
+- **Microsoft Certified: Azure Fundamentals (AZ-900)**
+- **Achilles Certified Tester**
+
+---
+
+## Technical Competencies Taxonomy
+- **AI & ML Security:** LLM Red Teaming, Adversarial Machine Learning, Prompt Injection Defense, Model Hardening, Guardrails Engineering, Jailbreak Analysis.
+- **Industrial & Embedded Security:** ICS/SCADA, Modbus, DNP3, PROFINET, IEC 60870-5-104, Firmware Reverse Engineering (Ghidra, IDA Pro, Binwalk), Hardware Debugging (JTAG, UART, SPI).
+- **Vulnerability Assessment & Pentesting (VAPT):** Network, Embedded, Cloud, Web, API, Mobile (Android/iOS).
+- **Standards & Frameworks:** IEC 62443, ISO 27001, MITRE ATT&CK for ICS, CVSS v3.1/v4.0, NIST CSF.
+- **Languages & Scripting:** Go, Python, C, Bash, PHP, SQL.
+- **Tools & Platforms:** Burp Suite Professional, Metasploit, Wireshark, Docker, Linux (Ubuntu, Kali, Parrot, BlackArch), GCP, Azure, Git.

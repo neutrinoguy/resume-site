@@ -1,530 +1,1504 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-	<title>Aagam Shah - Resume</title>
+<html class="dark" lang="en" style="scroll-behavior: smooth;"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aagam Shah (neutrinoguy) | Cyber Security Technical Lead</title>
+<meta name="description" content="Portfolio and Security Telemetry Deck of Aagam Shah (neutrinoguy) — Cyber Security Technical Lead specializing in Penetration Testing, Threat Modelling, and ICS/OT Security."/>
+<meta name="author" content="Aagam Shah (neutrinoguy)"/>
+<meta name="keywords" content="Aagam Shah, neutrinoguy, Cyber Security Technical Lead, ABB, ICS Security, SCADA, Penetration Testing, Threat Modelling, CVE-2022-22987, CVE-2023-24181, CEH, IEC 62443, ISO 27001"/>
+<link rel="canonical" href="https://neutrinoguy.zip/"/>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="icon" type="image/png" href="assets/images/dragon.png"/>
+
+<!-- Open Graph / Social Meta -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://neutrinoguy.zip/"/>
+<meta property="og:title" content="Aagam Shah (neutrinoguy) | Cyber Security Technical Lead"/>
+<meta property="og:description" content="Offensive & Defensive Security Telemetry Deck · Threat Modelling, ICS/OT VAPT, Zero-Day Research & Security Engineering."/>
+<meta property="og:image" content="https://neutrinoguy.zip/assets/images/profile.jpeg"/>
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:creator" content="@neutrinoguy"/>
+<meta name="twitter:title" content="Aagam Shah (neutrinoguy) | Cyber Security Technical Lead"/>
+<meta name="twitter:description" content="Offensive & Defensive Security Telemetry Deck · Threat Modelling, ICS/OT VAPT, Zero-Day Research & Security Engineering."/>
+<meta name="twitter:image" content="https://neutrinoguy.zip/assets/images/profile.jpeg"/>
+
+<!-- AI Agent Manifests & Machine-Readable Endpoints (llmstxt.org compliant) -->
+<link rel="alternate" type="text/plain" href="llms.txt" title="LLM Agent Manifest"/>
+<link rel="alternate" type="text/plain" href="llms-full.txt" title="Full LLM Context Dossier"/>
+<link rel="alternate" type="text/markdown" href="Resume.md" title="Machine-Readable Resume Markdown"/>
+<meta name="ai-content-declaration" content="human-curated, structured-data, llms-txt-compliant"/>
+
+<!-- Schema.org JSON-LD Structured Data for AI Agents & Search Engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://neutrinoguy.zip/#profilepage",
+      "url": "https://neutrinoguy.zip/",
+      "name": "Aagam Shah (neutrinoguy) - Cyber Security Technical Lead",
+      "description": "Official telemetry deck and technical resume of Aagam Shah (neutrinoguy), Cyber Security Technical Lead at ABB specializing in ICS/SCADA and Offensive & Defensive AI Security.",
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://neutrinoguy.zip/#person",
+        "name": "Aagam Shah",
+        "alternateName": "neutrinoguy",
+        "jobTitle": "Cyber Security Technical Lead",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "ABB",
+          "url": "https://new.abb.com/"
+        },
+        "description": "Cyber Security Technical Lead and security researcher specializing in Industrial Control Systems (ICS/OT) and Offensive & Defensive AI Security. Contributor to MITRE ATT&CK for ICS (T1694/002) and discoverer of multiple CVEs.",
+        "image": "https://neutrinoguy.zip/assets/images/profile.jpeg",
+        "email": "mailto:hello@hexlab.xyz",
+        "url": "https://neutrinoguy.zip/",
+        "sameAs": [
+          "https://hexlab.xyz",
+          "https://github.com/neutrinoguy",
+          "https://x.com/neutrinoguy",
+          "https://linkedin.com/in/neutrinoguy",
+          "https://neutrinoguy.medium.com"
+        ],
+        "knowsAbout": [
+          "Industrial Control Systems (ICS) Security",
+          "SCADA Security",
+          "Offensive AI Security",
+          "Defensive AI Security",
+          "Adversarial Machine Learning",
+          "LLM Red Teaming & Jailbreak Research",
+          "Threat Modeling",
+          "Penetration Testing (VAPT)",
+          "Firmware Reverse Engineering",
+          "IEC 62443",
+          "ISO 27001",
+          "MITRE ATT&CK for ICS",
+          "CVE-2022-22987",
+          "CVE-2023-24181",
+          "CVE-2023-24182"
+        ],
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "National Forensic Sciences University (NFSU)",
+            "description": "M.Tech in Cyber Security & Incident Response"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Gujarat Technological University (GTU)",
+            "description": "B.Tech in Computer Engineering"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "ISA/IEC 62443 Cybersecurity Expert"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Certified Ethical Hacker (CEH v13)"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Docker Certified Associate"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Microsoft Certified: Azure Fundamentals (AZ-900)"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Achilles Certified Tester"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://neutrinoguy.zip/#timehammer",
+      "name": "TimeHammer",
+      "description": "Cross-platform Network Time Protocol (NTP) security and resilience testing suite in Go for IoT and embedded devices.",
+      "codeRepository": "https://github.com/neutrinoguy/timehammer",
+      "programmingLanguage": "Go",
+      "author": {
+        "@id": "https://neutrinoguy.zip/#person"
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://neutrinoguy.zip/#voidprobe",
+      "name": "VoidProbe",
+      "description": "Real-time monitoring and security assessment tool in Go for Linux-based embedded systems evaluating IEC 62443-4-2 DoS resilience.",
+      "codeRepository": "https://github.com/neutrinoguy/VoidProbe",
+      "programmingLanguage": "Go",
+      "author": {
+        "@id": "https://neutrinoguy.zip/#person"
+      }
+    }
+  ]
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{width:6px;}::-webkit-scrollbar-track{background:#0a0d14;}::-webkit-scrollbar-thumb{background:#1e293b;border-radius:3px;}::-webkit-scrollbar-thumb:hover{background:#10b981;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"error-container":"#93000a","surface-tint":"#4edea3","border-subtle":"rgba(255, 255, 255, 0.08)","outline-variant":"#3c4a42","on-tertiary":"#1000a9","surface-card":"#121824","inverse-primary":"#006c49","on-secondary-fixed":"#001f26","tertiary":"#c0c1ff","error":"#ffb4ab","tertiary-container":"#9699ff","primary-container":"#10b981","on-secondary":"#003640","status-warning":"#f59e0b","on-secondary-container":"#00424e","surface-bright":"#363941","on-primary-container":"#00422b","surface-dim":"#10131a","primary":"#4edea3","surface-overlay":"#1e293b","on-surface-variant":"#bbcabf","on-error":"#690005","surface-base":"#0a0d14","surface-container-low":"#191b23","on-primary-fixed-variant":"#005236","tertiary-fixed-dim":"#c0c1ff","secondary-fixed-dim":"#4cd7f6","surface-container-highest":"#32353d","on-tertiary-fixed-variant":"#2f2ebe","text-mono-accent":"#34d399","on-error-container":"#ffdad6","on-primary":"#003824","primary-fixed":"#6ffbbe","primary-fixed-dim":"#4edea3","border-active":"rgba(6, 182, 212, 0.4)","tertiary-fixed":"#e1e0ff","on-primary-fixed":"#002113","secondary":"#4cd7f6","text-secondary":"#94a3b8","on-tertiary-container":"#1d17b2","text-tertiary":"#64748b","surface-container-lowest":"#0b0e15","surface-card-hover":"#172033","outline":"#86948a","on-background":"#e1e2ec","text-primary":"#f8fafc","on-surface":"#e1e2ec","surface-container-high":"#272a32","status-online":"#10b981","secondary-fixed":"#acedff","status-critical":"#ef4444","surface-container":"#1d1f27","on-secondary-fixed-variant":"#004e5c","surface-variant":"#32353d","inverse-surface":"#e1e2ec","background":"#10131a","on-tertiary-fixed":"#07006c","surface":"#10131a","inverse-on-surface":"#2d3038","secondary-container":"#03b5d3"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-md":"1rem","space-xl":"2.5rem",margin:"2.5rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-lg":"1.5rem","space-xxl":"4rem","space-xs":"0.25rem","margin-mobile":"1rem",gutter:"1.5rem"},fontFamily:{"headline-lg":["Plus Jakarta Sans"],"code-md":["JetBrains Mono"],"label-caps":["JetBrains Mono"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"code-lg":["JetBrains Mono"],"body-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"code-sm":["JetBrains Mono"]},fontSize:{"headline-lg":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"700"}],"code-md":["12px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"500"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.1em",fontWeight:"700"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"code-lg":["14px",{lineHeight:"22px",fontWeight:"500"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"headline-sm":["16px",{lineHeight:"24px",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"800"}],"headline-md":["20px",{lineHeight:"28px",fontWeight:"600"}],"display-lg-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.015em",fontWeight:"800"}],"code-sm":["11px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col justify-between"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-dim/95 backdrop-blur-xl border-b border-white/5 shadow-[0_1px_12px_rgba(0,0,0,0.6)]">
+  <div class="h-16 max-w-[1280px] mx-auto px-4 lg:px-gutter flex items-center justify-between gap-2">
+    
+    <!-- Brand Avatar & Identity -->
+    <a class="flex items-center gap-2 sm:gap-2.5 group shrink-0" href="#about">
+      <div class="w-9 h-9 rounded-full ring-2 ring-primary/60 group-hover:ring-primary transition-all bg-surface-card flex items-center justify-center text-[20px] sm:text-[22px] leading-none select-none shrink-0 shadow-[0_0_12px_rgba(16,185,129,0.3)]">
+        🐲
+      </div>
+      <div class="flex flex-col">
+        <div class="flex items-center gap-1 sm:gap-space-xs">
+          <span class="font-code-lg text-sm sm:text-code-lg text-text-primary tracking-tight font-bold group-hover:text-primary transition-colors">neutrinoguy</span>
+          <span class="font-code-sm text-code-sm text-text-tertiary hidden xs:inline">//</span>
+          <span class="font-body-sm text-body-sm text-text-secondary hidden sm:inline">Aagam Shah</span>
+          <span class="inline-block w-1.5 h-3 bg-primary animate-pulse ml-0.5"></span>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-status-online animate-ping"></span>
+          <span class="font-label-caps text-label-caps text-text-mono-accent uppercase text-[9px] sm:text-[10px]">System: Armed &amp; Auditing</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Desktop Primary Navigation (xl and up) -->
+    <nav class="hidden xl:flex items-center gap-1.5" data-active-classes="bg-primary-container text-on-primary-container font-code-md text-code-md px-space-sm py-1 rounded">
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#about">About</a>
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#experience">Experience</a>
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#skills">Skills</a>
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#cves">CVEs &amp; Research</a>
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#projects">Projects</a>
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#certifications">Certifications</a>
+      <a class="font-code-md text-code-md text-on-surface-variant hover:text-text-primary hover:bg-surface-card px-space-sm py-1 rounded transition-colors uppercase" href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header Actions Right -->
+    <div class="flex items-center gap-2 shrink-0">
+      
+      <!-- Social icons (Hidden on mobile phones, visible from md/tablet and up) -->
+      <div class="hidden md:flex items-center gap-1 px-1.5 py-1 rounded bg-surface-card border border-white/5">
+        <a aria-label="GitHub Repository" class="p-1.5 text-on-surface-variant hover:text-primary transition-colors" href="https://github.com/neutrinoguy" rel="noopener noreferrer" target="_blank" title="GitHub (@neutrinoguy)">
+          <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"></path></svg>
+        </a>
+        <a aria-label="X / Twitter" class="p-1.5 text-on-surface-variant hover:text-secondary transition-colors" href="https://x.com/neutrinoguy" rel="noopener noreferrer" target="_blank" title="X (@neutrinoguy)">
+          <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+        </a>
+        <a aria-label="LinkedIn" class="p-1.5 text-on-surface-variant hover:text-primary transition-colors" href="https://linkedin.com/in/neutrinoguy" rel="noopener noreferrer" target="_blank" title="LinkedIn (neutrinoguy)">
+          <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+        </a>
+        <a aria-label="Medium" class="p-1.5 text-on-surface-variant hover:text-secondary transition-colors" href="https://neutrinoguy.medium.com" rel="noopener noreferrer" target="_blank" title="Medium Writeups">
+          <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"></path></svg>
+        </a>
+        <a aria-label="RSS Advisory Feed" class="p-1.5 text-on-surface-variant hover:text-primary transition-colors" href="https://hexlab.xyz/feed.xml" rel="noopener noreferrer" target="_blank" title="RSS Advisory Feed">
+          <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93v-2.83z"></path></svg>
+        </a>
+        <a aria-label="Encrypted Mail" class="p-1.5 text-on-surface-variant hover:text-secondary transition-colors" href="mailto:hello@hexlab.xyz" title="hello@hexlab.xyz">
+          <svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+        </a>
+      </div>
+
+      <!-- Quick Action: Resume (Tablet and Desktop) -->
+      <a class="hidden lg:inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-card hover:bg-surface-card-hover text-on-surface-variant hover:text-primary border border-white/5 font-label-caps text-xs uppercase transition-colors" href="resume.html" title="Download Official Resume PDF">
+        <span class="material-symbols-outlined text-[14px]">download</span>Resume
+      </a>
+
+      <!-- Quick Action: Terminal Contact (sm and up) -->
+      <a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-primary-container text-on-primary-container hover:brightness-110 font-label-caps text-xs uppercase transition-all shadow-[0_0_12px_rgba(16,185,129,0.2)]" href="#contact">
+        <span class="material-symbols-outlined text-[14px]">terminal</span>Terminal Contact
+      </a>
+
+      <!-- Always Visible Mobile Hamburger / Menu Button (Visible on all screens under xl) -->
+      <button id="mobile-menu-btn" class="xl:hidden flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-surface-card hover:bg-surface-card-hover border border-primary/40 text-primary hover:text-text-primary transition-all focus:outline-none shadow-[0_0_10px_rgba(16,185,129,0.2)] active:scale-95" aria-label="Toggle Navigation Menu">
+        <span class="material-symbols-outlined text-[20px]" id="mobile-menu-icon">menu</span>
+        <span class="font-code-sm text-xs font-bold uppercase tracking-wider">MENU</span>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Dropdown Drawer -->
+  <div id="mobile-menu" class="hidden xl:hidden bg-surface-base/98 backdrop-blur-2xl border-b border-white/10 px-4 py-4 flex flex-col gap-1 shadow-2xl transition-all">
+    <div class="flex items-center justify-between pb-2 mb-1 border-b border-white/5 text-text-tertiary font-code-sm text-xs uppercase">
+      <span>// TELEMETRY NAVIGATION</span>
+      <span class="text-primary text-[10px] font-bold">7 SECTIONS</span>
+    </div>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#about">
+      <span>01 // About</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#experience">
+      <span>02 // Experience</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#skills">
+      <span>03 // Skills</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#cves">
+      <span>04 // CVEs &amp; Research</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#projects">
+      <span>05 // Projects</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#certifications">
+      <span>06 // Certifications</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <a class="font-code-md text-sm text-on-surface-variant hover:text-primary hover:bg-surface-card px-3 py-2.5 rounded transition-colors uppercase mobile-nav-link flex items-center justify-between" href="#contact">
+      <span>07 // Contact</span>
+      <span class="material-symbols-outlined text-[16px] text-text-tertiary">chevron_right</span>
+    </a>
+    <div class="pt-3 mt-2 border-t border-white/10 flex flex-col gap-2">
+      <a class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-surface-base font-code-md text-xs font-bold uppercase shadow-[0_0_15px_rgba(16,185,129,0.3)] mobile-nav-link" href="resume.html">
+        <span class="material-symbols-outlined text-[16px]">download</span>
+        Resume (Uploading Soon 🐲)
+      </a>
+      <a class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-surface-card text-secondary font-code-md text-xs uppercase mobile-nav-link" href="#contact">
+        <span class="material-symbols-outlined text-[16px]">terminal</span>
+        Initiate Encrypted Contact
+      </a>
+    </div>
+  </div>
+</header><main class="w-full pt-16 bg-surface-base flex-1"><div class="flex flex-col w-full">
+<!-- Top Command Center Hero Area -->
+<section class="relative w-full overflow-hidden bg-surface-dim/95 py-space-xl lg:py-space-xxl border-b border-white/5" id="hero">
+<!-- Ambient Cold Neon Glows (Contained) -->
+<div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary/10 blur-[120px] pointer-events-none"></div>
+<div class="absolute top-1/2 -right-32 w-[30rem] h-[30rem] rounded-full bg-secondary/10 blur-[140px] pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter">
+<!-- Breadcrumb & Clearance Status -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-lg">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-card text-text-primary border border-white/5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-status-online animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase tracking-wider">DEFENSE TELEMETRY // AUTHENTICATED OPERATOR</span>
+</div>
+<div class="flex items-center gap-2 px-space-sm py-1 rounded bg-surface-card text-text-secondary border border-white/5">
+<span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+<span class="font-code-sm text-code-sm text-secondary uppercase font-semibold">Clearance: ISO 27001 &amp; IEC 62443 Certified</span>
+</div>
+</div>
+<!-- Identity & Interactive Diagnostic Console Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-space-xl items-start">
+<!-- Left: Profile Identity & Bio Brief (7 Columns) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md">
+<!-- Profile Avatar with Emerald Glow Ring and Beacon -->
+<div class="relative shrink-0 group">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full p-1 bg-gradient-to-tr from-primary via-secondary to-primary/40 shadow-[0_0_24px_rgba(16,185,129,0.45)] ring-4 ring-primary/20">
+<div class="w-full h-full rounded-full bg-surface-base p-1 overflow-hidden flex items-center justify-center">
+<img alt="Aagam Shah Profile Picture" class="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-300" src="assets/images/profile.jpeg"/>
+</div>
+</div>
+<!-- Online Beacon -->
+<div class="absolute -bottom-1 -right-1 flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-lowest border border-primary/50 shadow-md">
+<span class="w-2 h-2 rounded-full bg-status-online animate-ping"></span>
+<span class="font-label-caps text-[9px] text-text-mono-accent font-bold uppercase tracking-wider">ONLINE</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex flex-wrap items-baseline gap-space-xs">
+<h1 class="font-display-lg text-display-lg text-text-primary tracking-tight font-extrabold">Aagam Shah</h1>
+<span class="font-code-lg text-code-lg text-secondary font-semibold">aka (neutrinoguy)</span>
+</div>
+<!-- Tagline -->
+<div class="inline-flex items-center gap-space-xs px-2.5 py-1 rounded bg-surface-card border border-white/5 self-start">
+<span class="material-symbols-outlined text-primary text-[15px]">bug_report</span>
+<p class="font-code-sm text-code-sm text-text-mono-accent font-medium uppercase tracking-wide">
+                LEARNER | CYBER SECURITY ENGINEER | Bugs 🐞 and Shrugs 🤷
+              </p>
+</div>
+</div>
+</div>
+<!-- Active Role Badge -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-lg flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-overlay flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">shield</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">Current Engagement</span>
+<span class="font-headline-sm text-headline-sm text-text-primary">Cyber Security Technical Lead</span>
+<span class="font-code-sm text-code-sm text-text-secondary">ABB · Bengaluru, Karnataka, India (Hybrid)</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2"><a class="inline-flex items-center justify-center gap-1.5 px-space-md py-2 rounded bg-gradient-to-r from-primary-container to-secondary-container text-on-primary font-code-md text-code-md font-bold uppercase shadow-[0_0_15px_rgba(16,185,129,0.3)] transition-all hover:brightness-110" href="#contact">
+<span class="material-symbols-outlined text-[16px]">lock_open</span>
+              Initiate Contact
+            </a>
+
+<a class="inline-flex items-center justify-center gap-1.5 px-space-md py-2 rounded bg-surface-overlay hover:bg-surface-card-hover border border-white/10 text-text-primary font-code-md text-code-md font-bold uppercase shadow-md transition-all hover:border-primary/50" href="resume.html" target="_blank"><span class="material-symbols-outlined text-[16px] text-primary">download</span>Resume PDF</a>
+</div></div>
+<!-- Communication Channels & Social Matrix with High-Fidelity SVGs -->
+<div class="flex flex-wrap items-center gap-2 pt-space-xs">
+<a class="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-primary/40 text-on-surface-variant hover:text-primary font-code-sm text-code-sm transition-all" href="mailto:hello@hexlab.xyz" title="Send Encrypted Email">
+<svg class="w-4 h-4 fill-current text-primary" viewbox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+<span>hello@hexlab.xyz</span>
+</a>
+<a class="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-secondary/40 text-on-surface-variant hover:text-secondary font-code-sm text-code-sm transition-all" href="https://hexlab.xyz" rel="noopener noreferrer" target="_blank" title="Visit Personal Research Lab">
+<svg class="w-4 h-4 fill-current text-secondary" viewbox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+<span>hexlab.xyz</span>
+</a>
+<a class="inline-flex items-center gap-1.5 p-2 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-primary/40 text-on-surface-variant hover:text-text-primary transition-all" href="https://github.com/neutrinoguy" rel="noopener noreferrer" target="_blank" title="GitHub (@neutrinoguy)">
+<svg class="w-4 h-4 fill-current text-primary" viewbox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"></path></svg>
+<span class="font-code-sm text-code-sm font-semibold">GitHub</span>
+</a>
+<a class="inline-flex items-center gap-1.5 p-2 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-secondary/40 text-on-surface-variant hover:text-text-primary transition-all" href="https://x.com/neutrinoguy" rel="noopener noreferrer" target="_blank" title="X / Twitter (@neutrinoguy)">
+<svg class="w-4 h-4 fill-current text-secondary" viewbox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+<span class="font-code-sm text-code-sm font-semibold">X</span>
+</a>
+<a class="inline-flex items-center gap-1.5 p-2 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-primary/40 text-on-surface-variant hover:text-text-primary transition-all" href="https://linkedin.com/in/neutrinoguy" rel="noopener noreferrer" target="_blank" title="LinkedIn (Aagam Shah)">
+<svg class="w-4 h-4 fill-current text-primary" viewbox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+<span class="font-code-sm text-code-sm font-semibold">LinkedIn</span>
+</a>
+<a class="inline-flex items-center gap-1.5 p-2 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-secondary/40 text-on-surface-variant hover:text-text-primary transition-all" href="https://neutrinoguy.medium.com" rel="noopener noreferrer" target="_blank" title="Medium Security Writeups">
+<svg class="w-4 h-4 fill-current text-secondary" viewbox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"></path></svg>
+<span class="font-code-sm text-code-sm font-semibold">Medium</span>
+</a>
+<a class="p-2 rounded bg-surface-card hover:bg-surface-card-hover border border-white/5 hover:border-primary/40 text-on-surface-variant hover:text-primary transition-all" href="https://hexlab.xyz/feed.xml" rel="noopener noreferrer" target="_blank" title="RSS Advisory Feed">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93v-2.83z"></path></svg>
+</a>
+</div>
+</div>
+<!-- Right: Animated Paced Interactive Live Terminal View (5 Columns) -->
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="rounded-lg bg-surface-container-lowest border border-white/10 p-space-md shadow-2xl overflow-hidden flex flex-col justify-between">
+<!-- Terminal Titlebar -->
+<div class="flex items-center justify-between pb-space-sm mb-space-sm bg-surface-card/80 px-space-sm py-1.5 rounded border border-white/5">
+<div class="flex items-center gap-1.5">
+<button class="w-3 h-3 rounded-full bg-status-critical/80 hover:bg-status-critical transition-colors" id="term-btn-close" title="Clear Buffer"></button>
+<button class="w-3 h-3 rounded-full bg-status-warning/80 hover:bg-status-warning transition-colors" id="term-btn-pause" title="Pause / Resume"></button>
+<button class="w-3 h-3 rounded-full bg-status-online/80 hover:bg-status-online transition-colors" id="term-btn-replay" title="Replay Routine"></button>
+<span class="font-code-sm text-code-sm text-text-tertiary ml-2">neutrino-node-01: /opt/audit</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase text-[10px]">LIVE REPL</span>
+</div>
+</div>
+<!-- Terminal Animated Screen Buffer (Readable pacing) -->
+<div class="font-code-md text-code-md flex flex-col gap-2 text-text-secondary leading-relaxed min-h-[200px] select-text" id="terminal-screen">
+<!-- Commands dynamically appended here with realistic pacing -->
+<div class="flex items-center text-text-primary">
+<span class="text-primary font-bold mr-1.5">&gt;</span>
+<span class="text-text-primary" id="terminal-typed-cmd"></span>
+<span class="inline-block w-2 h-4 bg-primary ml-1 animate-pulse" id="terminal-cursor"></span>
+</div>
+<div class="flex flex-col gap-1.5 text-body-sm" id="terminal-history"></div>
+</div>
+<div class="pt-space-xs mt-space-xs border-t border-white/5 flex items-center justify-between font-code-sm text-code-sm text-text-tertiary bg-surface-card/60 p-space-xs rounded">
+<span id="term-metric-mem">MEM: 64.2 MB // OK</span>
+<span id="term-metric-pkt">PKTS: 148.2k rcvd</span>
+<span class="text-primary font-semibold">0 SEC FAULTS</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Stat Counter Strip -->
+<div class="grid grid-cols-2 md:grid-cols-5 gap-space-sm mt-space-xl">
+<a class="p-space-md rounded bg-surface-card border border-white/5 hover:border-status-critical/40 transition-all flex flex-col gap-1 shadow-md group" href="#cves">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">Disclosed CVEs</span>
+<span class="material-symbols-outlined text-status-critical text-[18px] group-hover:scale-110 transition-transform">gavel</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-text-primary font-extrabold">3+</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Vendor zero-days verified</span>
+</a>
+<a class="p-space-md rounded bg-surface-card border border-white/5 hover:border-primary/40 transition-all flex flex-col gap-1 shadow-md group" href="#experience">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">Experience</span>
+<span class="material-symbols-outlined text-primary text-[18px] group-hover:scale-110 transition-transform">history</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-text-primary font-extrabold">5+ Yrs</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Embedded, Cloud &amp; OT VAPT</span>
+</a>
+<a class="p-space-md rounded bg-surface-card border border-white/5 hover:border-secondary/40 transition-all flex flex-col gap-1 shadow-md group" href="#cves">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">CTF Rank</span>
+<span class="material-symbols-outlined text-secondary text-[18px] group-hover:scale-110 transition-transform">trophy</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-text-primary font-extrabold">Top 50</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Nullcon HackIM &amp; Top 3 Pragyan</span>
+</a>
+<a class="p-space-md rounded bg-surface-card border border-white/5 hover:border-tertiary/40 transition-all flex flex-col gap-1 shadow-md group" href="#certifications">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">Certifications</span>
+<span class="material-symbols-outlined text-tertiary text-[18px] group-hover:scale-110 transition-transform">military_tech</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-text-primary font-extrabold">IEC 62443</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Full Expert suite + CEH v13</span>
+</a>
+<a class="col-span-2 md:col-span-1 p-space-md rounded bg-surface-card border border-white/5 hover:border-primary/40 transition-all flex flex-col gap-1 shadow-md group" href="#skills">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">ICS Protocols</span>
+<span class="material-symbols-outlined text-primary text-[18px] group-hover:scale-110 transition-transform">security</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-primary font-extrabold">100%</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Fuzzed &amp; Hardened Stack</span>
+</a>
+</div>
+</div>
+</section>
+<!-- About Me Section -->
+<section class="w-full py-space-xl bg-surface-base" id="about">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter">
+<div class="p-space-lg lg:p-space-xl rounded bg-surface-card border border-white/5 shadow-lg flex flex-col lg:flex-row gap-space-lg items-center">
+<!-- Visual Badge Illustration with Insignia Motif -->
+<div class="w-full lg:w-1/3 flex flex-col items-center justify-center p-space-md rounded bg-surface-dim border border-white/5 shrink-0">
+<div class="relative w-40 h-40 flex items-center justify-center group">
+<!-- Outer Tactical Radar Ring (Slow Clockwise Sweep) -->
+<svg class="absolute inset-0 w-full h-full text-primary/40 animate-spin" style="animation-duration: 20s;" viewBox="0 0 100 100">
+<circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4 2 4" opacity="0.6"></circle>
+<circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="0.5" stroke-dasharray="1 8" opacity="0.4"></circle>
+</svg>
+
+<!-- Counter-Rotating Inner Target Crosshairs -->
+<svg class="absolute inset-2 w-[calc(100%-1rem)] h-[calc(100%-1rem)] text-secondary/50 animate-spin" style="animation-duration: 14s; animation-direction: reverse;" viewBox="0 0 100 100">
+<path d="M50 2 L50 14 M50 98 L50 86 M2 50 L14 50 M98 50 L86 50" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+<circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="12 18" opacity="0.7"></circle>
+</svg>
+
+<!-- Ambient Radar Glow Backdrop -->
+<div class="absolute inset-4 rounded-full bg-gradient-to-tr from-primary/20 via-secondary/15 to-transparent blur-md pointer-events-none"></div>
+
+<!-- Central Glassmorphic Node with Dragon Logo -->
+<div class="relative w-24 h-24 rounded-full bg-surface-base/90 border-2 border-primary/60 p-2 flex items-center justify-center overflow-hidden shadow-[0_0_20px_rgba(16,185,129,0.35)] group-hover:border-secondary group-hover:shadow-[0_0_25px_rgba(76,215,246,0.5)] transition-all duration-300">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-primary/20 to-transparent pointer-events-none animate-pulse"></div>
+<img alt="Aagam Shah Dragon Insignia" class="w-full h-full object-contain relative z-10 transition-transform duration-300 group-hover:scale-110 drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]" src="assets/images/dragon.png"/>
+</div>
+
+<!-- 4 Tactical Corner HUD Reticles -->
+<span class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary/60"></span>
+<span class="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-secondary/60"></span>
+<span class="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-secondary/60"></span>
+<span class="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-primary/60"></span>
+</div>
+<div class="mt-space-sm text-center">
+<span class="font-headline-sm text-headline-sm text-text-primary">Offensive &amp; Defensive SME</span>
+<p class="font-code-sm text-code-sm text-text-secondary mt-0.5">OT/ICS &amp; Frontier AI Security</p>
+<div class="mt-2 inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-primary-container/20 text-text-mono-accent text-[11px] font-code-sm border border-primary/30">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+                OFFENSIVE &amp; DEFENSIVE AI RESEARCH
+              </div>
+</div>
+</div>
+<!-- Verbatim Bio Text & Tactical Focus Modules -->
+<div class="w-full lg:w-2/3 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary font-bold">__</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">About Me</h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Cyber Security Technical Lead and security researcher specializing in <strong>Industrial Control Systems (ICS/OT)</strong> and <strong>Offensive &amp; Defensive AI Security</strong>. My work focuses on adversarial AI red teaming, prompt injection &amp; jailbreak mitigation, LLM defense engineering, firmware vulnerability research, and threat modeling for mission-critical infrastructure. Passionate about empowering the global security ecosystem by engineering open-source defense tools and publishing in-depth security advisories.
+          </p>
+<!-- Core Philosophy Badges with AI Security -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-primary/40 transition-colors flex flex-col gap-1">
+<span class="material-symbols-outlined text-primary text-[18px]">memory</span>
+<span class="font-headline-sm text-headline-sm text-text-primary text-[14px]">OT/ICS Security</span>
+<span class="font-code-sm text-code-sm text-text-tertiary">SCADA &amp; Fieldbus</span>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-primary/40 transition-colors flex flex-col gap-1">
+<span class="material-symbols-outlined text-primary text-[18px]">neurology</span>
+<span class="font-headline-sm text-headline-sm text-text-primary text-[14px]">AI Security</span>
+<span class="font-code-sm text-code-sm text-text-tertiary">Red Team &amp; Defense</span>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-secondary/40 transition-colors flex flex-col gap-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">terminal</span>
+<span class="font-headline-sm text-headline-sm text-text-primary text-[14px]">Firmware VAPT</span>
+<span class="font-code-sm text-code-sm text-text-tertiary">Reverse Eng &amp; PoC</span>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-tertiary/40 transition-colors flex flex-col gap-1">
+<span class="material-symbols-outlined text-tertiary text-[18px]">account_tree</span>
+<span class="font-headline-sm text-headline-sm text-text-primary text-[14px]">Threat Modeling</span>
+<span class="font-code-sm text-code-sm text-text-tertiary">AI &amp; System Arch</span>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-status-online/40 transition-colors flex flex-col gap-1">
+<span class="material-symbols-outlined text-status-online text-[18px]">cloud_sync</span>
+<span class="font-headline-sm text-headline-sm text-text-primary text-[14px]">Cloud DevSecOps</span>
+<span class="font-code-sm text-code-sm text-text-tertiary">CI/CD &amp; Model Hardening</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Asymmetric 12-Column Grid: Work Experience (8 Cols) vs Technical Matrix (4 Cols) -->
+<section class="w-full py-space-xl bg-surface-dim border-y border-white/5" id="experience">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-space-xl">
+<!-- Left: Experience Timeline (8 Columns) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary font-bold">__</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Work Experience</h2>
+</div>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase tracking-wider">CHRONOLOGY // OPERATIONAL AUDIT</span>
+</div>
+<!-- Timeline Trunk -->
+<div class="relative flex flex-col gap-space-lg pl-4 sm:pl-6 before:content-[''] before:absolute before:left-1.5 sm:before:left-2 before:top-3 before:bottom-3 before:w-0.5 before:bg-surface-bright">
+<!-- Item 1: Lead @ ABB -->
+<div class="relative flex flex-col gap-space-sm">
+<!-- Timeline node dot -->
+<span class="absolute -left-[19px] sm:-left-[21px] top-1.5 w-3 h-3 rounded-full bg-primary ring-4 ring-surface-base shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span>
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-text-primary">Cyber Security Technical Lead</span>
+<span class="font-code-sm text-code-sm text-primary font-bold">ABB · Bengaluru, Karnataka, India · Hybrid</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-space-xs py-0.5 rounded bg-surface-overlay font-code-sm text-code-sm text-secondary font-semibold">Jun 2024 – Present</span>
+</div>
+</div>
+<ul class="flex flex-col gap-2 font-body-md text-body-md text-on-surface-variant list-none pt-space-xs">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">verified_user</span>
+<span><strong class="text-text-primary font-semibold">Penetration Testing:</strong> Expert in comprehensive testing across embedded devices, cloud, APIs, mobile apps, and thick clients.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">schema</span>
+<span><strong class="text-text-primary font-semibold">Threat Modelling:</strong> Lead thorough threat modelling for products in the design phase.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">bug_report</span>
+<span><strong class="text-text-primary font-semibold">Vulnerability Research:</strong> Specialise in ICS protocol vulnerability research.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">groups</span>
+<span><strong class="text-text-primary font-semibold">Subject Matter Expert:</strong> Serve as a Cybersecurity SME and mentor emerging talent.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">view_kanban</span>
+<span><strong class="text-text-primary font-semibold">Scrum Master:</strong> Manage team planning and effort monitoring duties.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">fact_check</span>
+<span><strong class="text-text-primary font-semibold">Compliance &amp; Audit:</strong> Drove successful audits for ISO 27001:2013 and IEC 62443-4-1:2018 certifications.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">smart_toy</span>
+<span><strong class="text-text-primary font-semibold">Innovation:</strong> Explore AI applications in cybersecurity and identify zero-day vulnerabilities in third-party products.</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Item 2: Senior Engineer @ ABB -->
+<div class="relative flex flex-col gap-space-sm">
+<span class="absolute -left-[19px] sm:-left-[21px] top-1.5 w-3 h-3 rounded-full bg-secondary ring-4 ring-surface-base"></span>
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-text-primary">Senior Cyber Security Engineer</span>
+<span class="font-code-sm text-code-sm text-secondary font-bold">ABB</span>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-surface-overlay font-code-sm text-code-sm text-text-secondary">Nov 2021 – Jun 2024</span>
+</div>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 font-body-md text-body-md text-on-surface-variant pt-space-xs">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Firmware Analysis &amp; Threat Modelling</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Penetration Testing across targets</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Security Proof of Concepts (PoC)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Handling Agile Scrum Activities</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Item 3: Cyber Security Engineer @ ABB -->
+<div class="relative flex flex-col gap-space-sm">
+<span class="absolute -left-[19px] sm:-left-[21px] top-1.5 w-3 h-3 rounded-full bg-tertiary ring-4 ring-surface-base"></span>
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-text-primary">Cyber Security Engineer</span>
+<span class="font-code-sm text-code-sm text-tertiary font-bold">ABB</span>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-surface-overlay font-code-sm text-code-sm text-text-secondary">June 2020 – Oct 2021</span>
+</div>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-text-primary">&gt; Threat modelling</span>
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-text-primary">&gt; Penetration testing of ICS systems</span>
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-text-primary">&gt; DevSecOps pipelines</span>
+</div>
+</div>
+</div>
+<!-- Item 4: Cyber Security Intern @ ABB -->
+<div class="relative flex flex-col gap-space-sm">
+<span class="absolute -left-[19px] sm:-left-[21px] top-1.5 w-3 h-3 rounded-full bg-text-tertiary ring-4 ring-surface-base"></span>
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-text-primary">Cyber Security Intern</span>
+<span class="font-code-sm text-code-sm text-text-secondary font-bold">ABB</span>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-surface-overlay font-code-sm text-code-sm text-text-secondary">June 2019 – May 2020</span>
+</div>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-on-surface-variant">&gt; Penetration testing of Embedded Systems</span>
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-on-surface-variant">&gt; Fuzzing proprietary and standard protocols</span>
+</div>
+</div>
+</div>
+<!-- Item 5: Intern @ Cyber Cell Ahmedabad -->
+<div class="relative flex flex-col gap-space-sm">
+<span class="absolute -left-[19px] sm:-left-[21px] top-1.5 w-3 h-3 rounded-full bg-text-tertiary ring-4 ring-surface-base"></span>
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-text-primary">Intern</span>
+<span class="font-code-sm text-code-sm text-text-secondary font-bold">Cyber Cell Ahmedabad</span>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-surface-overlay font-code-sm text-code-sm text-text-secondary">Jan 2019 – March 2019</span>
+</div>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-on-surface-variant">&gt; Worked on multiple ongoing cyber crime cases</span>
+<span class="px-space-sm py-1 rounded bg-surface-dim font-code-sm text-code-sm text-on-surface-variant">&gt; Helped with advanced OSINT activities</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Technical Arsenal & Skills Matrix (4 Columns) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg" id="skills">
+<!-- Tech Skills Card with Signal Bar Visualizers -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-primary font-bold">__</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Tech Skills</h3>
+</div>
+<span class="material-symbols-outlined text-primary text-[18px]">terminal</span>
+</div>
+<!-- Python & Scripting -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between font-code-sm text-code-sm">
+<span class="text-text-primary font-semibold">Python &amp; Scripting (C, Bash, PHP)</span>
+<span class="text-text-mono-accent font-bold">95%</span>
+</div>
+<div class="grid grid-cols-10 gap-1 h-2">
+<div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div>
+<div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-surface-bright rounded-xs"></div>
+</div>
+</div>
+<!-- Linux & RTOS -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between font-code-sm text-code-sm">
+<span class="text-text-primary font-semibold">Linux &amp; RTOS</span>
+<span class="text-secondary font-bold">90%</span>
+</div>
+<div class="grid grid-cols-10 gap-1 h-2">
+<div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div>
+<div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-surface-bright rounded-xs"></div>
+</div>
+</div>
+<!-- VAPT & Tools -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between font-code-sm text-code-sm">
+<span class="text-text-primary font-semibold">VAPT &amp; Tools (Burp, MSF, Drozer)</span>
+<span class="text-primary font-bold">98%</span>
+</div>
+<div class="grid grid-cols-10 gap-1 h-2">
+<div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div>
+<div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div><div class="bg-primary rounded-xs"></div>
+</div>
+</div>
+<!-- ICS Security -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between font-code-sm text-code-sm">
+<span class="text-text-primary font-semibold">ICS / SCADA Security</span>
+<span class="text-secondary font-bold">95%</span>
+</div>
+<div class="grid grid-cols-10 gap-1 h-2">
+<div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div>
+<div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-secondary rounded-xs"></div><div class="bg-surface-bright rounded-xs"></div>
+</div>
+</div>
+<!-- Cloud / DevOps -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between font-code-sm text-code-sm">
+<span class="text-text-primary font-semibold">Cloud/DevOps (Azure, Docker)</span>
+<span class="text-tertiary font-bold">85%</span>
+</div>
+<div class="grid grid-cols-10 gap-1 h-2">
+<div class="bg-tertiary rounded-xs"></div><div class="bg-tertiary rounded-xs"></div><div class="bg-tertiary rounded-xs"></div><div class="bg-tertiary rounded-xs"></div><div class="bg-tertiary rounded-xs"></div>
+<div class="bg-tertiary rounded-xs"></div><div class="bg-tertiary rounded-xs"></div><div class="bg-tertiary rounded-xs"></div><div class="bg-surface-bright rounded-xs"></div><div class="bg-surface-bright rounded-xs"></div>
+</div>
+</div>
+</div>
+<!-- Soft Skills Card -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary font-bold">__</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Soft Skills</h3>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-space-xs">
+<div class="p-space-xs rounded bg-surface-dim border border-white/5 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[16px]">psychology</span>
+<span class="font-code-sm text-code-sm text-text-primary">Leadership</span>
+</div>
+<div class="p-space-xs rounded bg-surface-dim border border-white/5 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">assignment</span>
+<span class="font-code-sm text-code-sm text-text-primary">Project Mgmt</span>
+</div>
+<div class="p-space-xs rounded bg-surface-dim border border-white/5 flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[16px]">sync</span>
+<span class="font-code-sm text-code-sm text-text-primary">DevSecOps</span>
+</div>
+<div class="p-space-xs rounded bg-surface-dim border border-white/5 flex items-center gap-2">
+<span class="material-symbols-outlined text-status-online text-[16px]">mic</span>
+<span class="font-code-sm text-code-sm text-text-primary">Public Speaking</span>
+</div>
+</div>
+</div>
+<!-- Languages Card -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-primary font-bold">__</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Languages</h3>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="flex items-center justify-between p-space-xs rounded bg-surface-dim border border-white/5">
+<span class="font-code-sm text-code-sm text-text-primary font-semibold">English</span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">Fluent / Operational</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded bg-surface-dim border border-white/5">
+<span class="font-code-sm text-code-sm text-text-primary font-semibold">Gujarati</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase">Native Language</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded bg-surface-dim border border-white/5">
+<span class="font-code-sm text-code-sm text-text-primary font-semibold">Hindi</span>
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">Professional Working</span>
+</div>
+</div>
+</div>
+<!-- Lab Telemetry Status Pill -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-status-online animate-ping shrink-0"></div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-text-tertiary uppercase">Lab Node Monitor</span>
+<span class="font-code-sm text-code-sm text-text-primary font-semibold">Active Threat Hunt &amp; Protocol Fuzzing</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase Section: CVEs, Research, Hall of Fame & Achievements -->
+<section class="w-full py-space-xl lg:py-space-xxl bg-surface-base" id="cves">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary font-bold">__</span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">VULNERABILITY REGISTRY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mt-1">CVEs, Research &amp; Hall of Fame</h2>
+</div>
+<span class="font-code-sm text-code-sm text-text-secondary">Official Coordinated Responsible Disclosures</span>
+</div>
+<!-- CVE Disclosures Highlight Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- CVE 1 -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:border-primary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-error-container text-on-error-container font-code-md text-code-md font-bold uppercase text-xs">
+                CRITICAL // CVSS 9.8
+              </span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-xs">ICS Gateway</span>
+</div>
+<a href="https://www.cisa.gov/uscert/ics/advisories/icsa-22-032-02" target="_blank" rel="noopener noreferrer" class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors mt-1">
+  CVE-2022-22987
+</a>
+<p class="font-code-sm text-code-sm text-secondary font-semibold">Advantech ADAM-3600</p>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+  Hard-coded private key inside project directory allowing unauthenticated remote administrative web server takeover.
+</p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs border-t border-white/5 font-code-sm text-xs">
+<a href="https://www.cisa.gov/uscert/ics/advisories/icsa-22-032-02" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline flex items-center justify-between">
+  <span>CISA Advisory ICSA-22-032-02</span>
+  <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+<div class="flex items-center justify-between text-text-secondary bg-surface-dim p-1.5 rounded">
+  <span>STATUS: VERIFIED</span>
+  <span class="text-primary font-bold">PATCHED</span>
+</div>
+</div>
+</div>
+
+<!-- CVE 2 -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:border-secondary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-secondary-container text-on-secondary-container font-code-md text-code-md font-bold uppercase text-xs">
+                MEDIUM // CWE-79
+              </span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-xs">Network Firmware</span>
+</div>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24181" target="_blank" rel="noopener noreferrer" class="font-headline-md text-headline-md text-text-primary group-hover:text-secondary transition-colors mt-1">
+  CVE-2023-24181
+</a>
+<p class="font-code-sm text-code-sm text-secondary font-semibold">OpenWrt LuCI (openwrt-22.03)</p>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+  Reflected Cross-Site Scripting (XSS) discovered in OpenWrt LuCI via the <code>/openvpn/pageswitch.htm</code> component.
+</p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs border-t border-white/5 font-code-sm text-xs">
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24181" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline flex items-center justify-between">
+  <span>NVD Vulnerability Details</span>
+  <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+<div class="flex items-center justify-between text-text-secondary bg-surface-dim p-1.5 rounded">
+  <span>DISCLOSURE: COORDINATED</span>
+  <span class="text-secondary font-bold">ACKNOWLEDGED</span>
+</div>
+</div>
+</div>
+
+<!-- CVE 3 -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:border-secondary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-secondary-container text-on-secondary-container font-code-md text-code-md font-bold uppercase text-xs">
+                MEDIUM // CWE-79
+              </span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-xs">Network Firmware</span>
+</div>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24182" target="_blank" rel="noopener noreferrer" class="font-headline-md text-headline-md text-text-primary group-hover:text-secondary transition-colors mt-1">
+  CVE-2023-24182
+</a>
+<p class="font-code-sm text-code-sm text-secondary font-semibold">OpenWrt LuCI (openwrt-22.03)</p>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">
+  Stored Cross-Site Scripting (XSS) discovered in OpenWrt LuCI via <code>/system/sshkeys.js</code> allowing persistent payload execution in admin context.
+</p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs border-t border-white/5 font-code-sm text-xs">
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24182" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline flex items-center justify-between">
+  <span>NVD Vulnerability Details</span>
+  <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+<div class="flex items-center justify-between text-text-secondary bg-surface-dim p-1.5 rounded">
+  <span>DISCLOSURE: COORDINATED</span>
+  <span class="text-secondary font-bold">ACKNOWLEDGED</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Acknowledgements & Hall of Fame Grid -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">military_tech</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Hall of Fame &amp; Security Acknowledgements</h3>
+</div>
+<a href="https://hexlab.xyz/achievements/" target="_blank" rel="noopener noreferrer" class="font-code-sm text-code-sm text-primary hover:underline flex items-center gap-1">
+  <span>hexlab.xyz/achievements/ →</span>
+</a>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-space-sm pt-space-xs">
+<a href="https://unite.un.org/content/hall-fame" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-primary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-primary font-bold">United Nations</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Hall of Fame</span>
+</a>
+<a href="https://secure.sony.net/hallofthanks.html" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-secondary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-secondary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-secondary font-bold">Sony</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Hall of Thanks</span>
+</a>
+<a href="https://security.alibaba.com/top.htm?tab=1" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-primary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-primary font-bold">Alibaba</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Security Top</span>
+</a>
+<a href="https://security.opera.com/hall-of-fame/" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-secondary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-secondary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-secondary font-bold">Opera</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Hall of Fame</span>
+</a>
+<a href="https://www.sophos.com/en-us/legal/sophos-responsible-disclosure-policy/thanks.aspx" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-primary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-primary font-bold">Sophos</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Hall of Thanks</span>
+</a>
+<a href="https://www.honeywell.com/us/en/product-security#language4/" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-secondary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-secondary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-secondary font-bold">Honeywell</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Product Security</span>
+</a>
+<a href="https://bugbounty.naver.com/ko/halloffame_2019" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-primary/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-primary font-bold">Naver</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Hall of Fame</span>
+</a>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex flex-col items-center justify-center text-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-text-mono-accent text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary font-bold">Intel</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">VDP</span>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex flex-col items-center justify-center text-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-text-mono-accent text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary font-bold">ForgeRock</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">VDP</span>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex flex-col items-center justify-center text-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-text-mono-accent text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary font-bold">Prezi</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">VDP</span>
+</div>
+<a href="https://nciipc.gov.in/documents/NCIIPC_Newsletter_Oct18.pdf" target="_blank" rel="noopener noreferrer" class="p-space-sm rounded bg-surface-dim border border-white/5 hover:border-status-warning/40 flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all group">
+<span class="material-symbols-outlined text-status-warning text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary group-hover:text-status-warning font-bold">NCIIPC India</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">Critical Infra</span>
+</a>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex flex-col items-center justify-center text-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<span class="font-code-md text-code-md text-text-primary font-bold">Dutch Gov</span>
+<span class="font-code-sm text-code-sm text-text-tertiary text-[10px]">NCSC-NL</span>
+</div>
+</div>
+</div>
+<!-- Awards, CTF & Open Source Contributions Bento Subgrid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Awards & CTF Highlights -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">emoji_events</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Awards &amp; CTF Honors</h3>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="p-space-md rounded bg-surface-dim border border-white/5 flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">stars</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-text-primary">X-Tra Miler &amp; Star Performer</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Awarded at ABB for technical execution and leadership excellence</span>
+</div>
+</div>
+<span class="font-label-caps text-label-caps text-secondary uppercase">ABB RECOGNITION</span>
+</div>
+<div class="p-space-md rounded bg-surface-dim border border-white/5 flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">flag</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-text-primary">Top 50 – Nullcon HackIM CTF 2019</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Competitive international cybersecurity CTF</span>
+</div>
+</div>
+<span class="font-label-caps text-label-caps text-primary uppercase">GLOBAL TOP 50</span>
+</div>
+<div class="p-space-md rounded bg-surface-dim border border-white/5 flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[24px]">workspace_premium</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-text-primary">Top 3 India – Pragyan CTF 2017</span>
+<span class="font-code-sm text-code-sm text-text-secondary">National collegiate and professional hacking contest</span>
+</div>
+</div>
+<span class="font-label-caps text-label-caps text-tertiary uppercase">TOP 3 PODIUM</span>
+</div>
+</div>
+</div>
+<!-- Open Source & Community Contributions -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">share</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Open Source &amp; Community Contributions</h3>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">terminal</span>
+<div>
+<a href="https://attack.mitre.org/techniques/T1694/002/" target="_blank" rel="noopener noreferrer" class="font-code-md text-code-md text-text-primary hover:text-primary transition-colors font-bold flex items-center gap-1.5">MITRE ATT&amp;CK for ICS — Technique T1694/002 (Hardcoded Credentials) <span class="material-symbols-outlined text-[15px] text-primary">open_in_new</span></a>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Official content contributor documenting hardcoded credential attack patterns in ICS/SCADA equipment.</p>
+</div>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">group_work</span>
+<div>
+<span class="font-code-md text-code-md text-text-primary font-bold">CVSS 4.0 SIG &amp; MITRE ICS/OT SIG</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Active member refining common vulnerability scoring and industrial threat matrices.</p>
+</div>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">rss_feed</span>
+<div>
+<span class="font-code-md text-code-md text-text-primary font-bold">Vulnerability Lookup Project by CIRCL</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Added CSAF (Common Security Advisory Framework) feeds to improve intelligence sharing.</p>
+</div>
+</div>
+<div class="p-space-sm rounded bg-surface-dim border border-white/5 flex items-start gap-3">
+<span class="material-symbols-outlined text-text-mono-accent text-[20px] shrink-0 mt-0.5">code</span>
+<div>
+<span class="font-code-md text-code-md text-text-primary font-bold">Tool Contributor: EMBA, Photon, Reconnoitre</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Direct codebase enhancements for firmware analysis and reconnaissance tools.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Security Projects Grid -->
+<section class="w-full py-space-xl bg-surface-dim border-b border-white/5" id="projects">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary font-bold">__</span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">TACTICAL REPOSITORIES</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mt-1">Featured Security Projects</h2>
+</div>
+<a class="font-code-sm text-code-sm text-primary hover:text-text-primary transition-colors flex items-center gap-1" href="https://github.com/neutrinoguy" rel="noopener noreferrer" target="_blank">
+          Explore all repositories on GitHub →
+        </a>
+</div>
+<!-- Projects Grid (5 projects) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Project 1: TimeHammer -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:bg-surface-card-hover hover:border-primary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[24px]">timer</span>
+<span class="font-code-sm text-code-sm text-text-mono-accent font-bold">Go / NTP / IoT Security</span>
+</div>
+<a class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors" href="https://github.com/neutrinoguy/timehammer" rel="noopener noreferrer" target="_blank">
+              TimeHammer
+            </a>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Cross-platform NTP security and resilience testing suite tailored for IoT &amp; embedded systems. Features an interactive terminal UI (TUI) to simulate time spoofing, Kiss-of-Death packets, client fuzzing, and Y2K38 rollovers.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-code-sm text-code-sm text-text-tertiary">
+<span class="text-secondary font-mono">github.com/neutrinoguy/timehammer</span>
+<span class="material-symbols-outlined text-[16px] text-primary">open_in_new</span>
+</div>
+</div>
+<!-- Project 2: VoidProbe -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:bg-surface-card-hover hover:border-secondary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-secondary text-[24px]">security</span>
+<span class="font-code-sm text-code-sm text-secondary font-bold">Go / IEC 62443 / Telemetry</span>
+</div>
+<a class="font-headline-md text-headline-md text-text-primary group-hover:text-secondary transition-colors" href="https://github.com/neutrinoguy/VoidProbe" rel="noopener noreferrer" target="_blank">
+              VoidProbe
+            </a>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Real-time monitoring and security assessment tool for Linux-based embedded systems. Assesses devices against IEC 62443-4-2 Denial of Service (DoS) Resistance and Resource Management (DRRM) requirements via lightweight SSH telemetry agents.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-code-sm text-code-sm text-text-tertiary">
+<span class="text-secondary font-mono">github.com/neutrinoguy/VoidProbe</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">open_in_new</span>
+</div>
+</div>
+<!-- Project 3: Devicestats (Drozer Module) -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:bg-surface-card-hover hover:border-primary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[24px]">smartphone</span>
+<span class="font-code-sm text-code-sm text-text-mono-accent font-bold">Python / Drozer</span>
+</div>
+<a class="font-headline-md text-headline-md text-text-primary group-hover:text-primary transition-colors" href="https://github.com/neutrinoguy/devicestats" rel="noopener noreferrer" target="_blank">
+              Devicestats (Drozer Module)
+            </a>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Drozer module to extract device information during Android mobile application penetration tests.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-code-sm text-code-sm text-text-tertiary">
+<span class="text-secondary font-mono">github.com/neutrinoguy/devicestats</span>
+<span class="material-symbols-outlined text-[16px] text-primary">open_in_new</span>
+</div>
+</div>
+<!-- Project 4: Awesome-ICS-Writeups -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:bg-surface-card-hover hover:border-secondary/40 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-secondary text-[24px]">menu_book</span>
+<span class="font-code-sm text-code-sm text-secondary font-bold">Curated Knowledge</span>
+</div>
+<a class="font-headline-md text-headline-md text-text-primary group-hover:text-secondary transition-colors" href="https://github.com/neutrinoguy/awesome-ics-writeups" rel="noopener noreferrer" target="_blank">
+              Awesome-ICS-Writeups
+            </a>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Curated collection of ICS/SCADA security writeups, offensive techniques, architecture guides, and threat assessments.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-code-sm text-code-sm text-text-tertiary">
+<span class="text-secondary font-mono">github.com/neutrinoguy/awesome-ics-writeups</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">open_in_new</span>
+</div>
+</div>
+<!-- Project 5: Honeypot over Cloud (ELK) -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-lg flex flex-col justify-between gap-space-md transition-all hover:bg-surface-card-hover hover:border-tertiary/40 md:col-span-2 lg:col-span-2 group">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-tertiary text-[24px]">cloud</span>
+<span class="font-code-sm text-code-sm text-tertiary font-bold">GCP / Cowrie / ELK</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary group-hover:text-tertiary transition-colors">
+              Honeypot over Cloud (ELK)
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Implemented Cowrie and adbhoney honeypots over Google Cloud Platform with real-time analytics dashboards for live telemetry ingestion.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-code-sm text-code-sm text-text-tertiary">
+<span class="text-tertiary font-semibold">&gt; Threat Telemetry Pipeline</span>
+<span class="material-symbols-outlined text-[16px]">monitoring</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Education & Certifications Grid -->
+<section class="w-full py-space-xl lg:py-space-xxl bg-surface-base" id="certifications">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-code-sm text-code-sm text-primary font-bold">__</span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">QUALIFICATIONS</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mt-1">Education &amp; Certifications</h2>
+</div>
+<span class="font-code-sm text-code-sm text-text-secondary">Accredited Academic &amp; Industry Standards</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Left: Education (5 Columns) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">school</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Academic Degree Programs</h3>
+</div>
+<!-- M-Tech -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase">POST GRADUATE DEGREE</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-dim font-code-sm text-code-sm text-text-primary font-bold">2018 – 2020</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary">M-Tech Cyber Security &amp; Incident Response</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Gujarat Forensic Sciences University (now NFSU - National Forensic Sciences University)
+            </p>
+<div class="mt-space-xs flex items-center gap-1 font-code-sm text-code-sm text-text-mono-accent">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+              Digital Forensics, Threat Intelligence &amp; Advanced Incident Response
+            </div>
+</div>
+<!-- B.Tech -->
+<div class="p-space-lg rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-tertiary uppercase">UNDERGRADUATE DEGREE</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-dim font-code-sm text-code-sm text-text-primary font-bold">2014 – 2018</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-text-primary">B.Tech Computer Engineering</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Gujarat Technological University (GTU)
+            </p>
+<div class="mt-space-xs flex items-center gap-1 font-code-sm text-code-sm text-text-secondary">
+<span class="material-symbols-outlined text-[15px]">check_circle</span>
+              Systems Programming, Network Protocols &amp; Computer Architecture
+            </div>
+</div>
+</div>
+<!-- Right: Certifications Matrix (7 Columns) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Professional Certifications</h3>
+</div>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">VERIFIED AUDITOR</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<!-- Cert 1: ISA/IEC 62443 -->
+<div class="sm:col-span-2 p-space-md rounded bg-surface-card border border-white/5 shadow-md flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded bg-surface-overlay flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-text-primary">ISA/IEC 62443 Cybersecurity Expert</span>
+<span class="font-code-sm text-code-sm text-primary font-semibold">All four certifications completed</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded bg-surface-dim border border-white/5 font-label-caps text-label-caps text-primary uppercase">EXPERT SUITE</span>
+</div>
+<!-- Cert 2: CEH v13 -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-status-critical text-[20px]">skull</span>
+<span class="font-label-caps text-label-caps text-status-critical uppercase">OFFENSIVE</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-text-primary mt-1">CEH v13</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Certified Ethical Hacker</span>
+</div>
+<!-- Cert 3: Docker Certified Associate -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-secondary text-[20px]">inventory_2</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase">CONTAINER</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-text-primary mt-1">Docker Certified Associate</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Enterprise Container Security</span>
+</div>
+<!-- Cert 4: AZ-900 -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-tertiary text-[20px]">cloud_circle</span>
+<span class="font-label-caps text-label-caps text-tertiary uppercase">CLOUD</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-text-primary mt-1">AZ-900: Azure Fundamentals</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Microsoft Certified Azure</span>
+</div>
+<!-- Cert 5: Achilles Tester -->
+<div class="p-space-md rounded bg-surface-card border border-white/5 shadow-md flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-text-mono-accent text-[20px]">health_and_safety</span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">HARDWARE/ICS</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-text-primary mt-1">Achilles Certified Tester</span>
+<span class="font-code-sm text-code-sm text-text-secondary">Industrial Communication Robustness</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Terminal CTA & Encrypted Dispatch Banner -->
+<section class="w-full py-space-xl bg-surface-dim border-t border-white/5" id="contact">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter">
+<div class="p-space-xl rounded-lg bg-surface-card border border-white/5 shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-space-lg relative overflow-hidden">
+<!-- Cold Cyber Radial Accent -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-primary/10 blur-[100px] pointer-events-none"></div>
+<div class="flex flex-col gap-space-xs z-10 max-w-2xl">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-dim border border-white/5 self-start">
+<span class="w-2 h-2 rounded-full bg-status-online animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-text-mono-accent uppercase">GPG &amp; DISPATCH READY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Initiate Encrypted Contact</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Available for threat modelling consultations, ICS protocol vulnerability research, offensive evaluations, and open-source collaboration.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs font-code-sm text-code-sm">
+<a class="text-text-primary flex items-center gap-1.5 hover:text-primary transition-colors" href="mailto:hello@hexlab.xyz">
+<svg class="w-4 h-4 fill-current text-primary" viewbox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+<span>hello@hexlab.xyz</span>
+</a>
+<a class="text-secondary flex items-center gap-1.5 hover:underline" href="https://hexlab.xyz" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current text-secondary" viewbox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+<span>hexlab.xyz</span>
+</a>
+<span class="text-text-tertiary">Vulnerability Disclosure Channel</span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm z-10 shrink-0 w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded bg-gradient-to-r from-primary-container to-secondary-container text-on-primary font-code-md text-code-md font-bold uppercase shadow-lg transition-transform hover:-translate-y-0.5" href="mailto:hello@hexlab.xyz">
+<span class="material-symbols-outlined text-[18px]">send</span>
+            Send Encrypted Dispatch
+          </a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded bg-surface-overlay border border-white/5 text-text-primary hover:text-secondary font-code-md text-code-md uppercase transition-colors" href="https://hexlab.xyz" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+            Visit HexLab.xyz
+          </a>
+</div>
+</div>
+<!-- Redesigned Tribute Attribution -->
+<div class="mt-space-lg pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-code-sm text-code-sm text-text-tertiary">
+<div class="flex items-center gap-1.5">
+<span>Telemetry Deck v4.2 // Offensive &amp; Defensive Cybersecurity Archetype</span>
+</div>
+
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-xl border-t border-white/5 shadow-[0_-1px_12px_rgba(0,0,0,0.6)]"><div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex flex-col gap-space-lg"><div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md"><div class="flex flex-col gap-1"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-status-online animate-pulse"></span><span class="font-code-sm text-code-sm text-text-mono-accent font-semibold">Secure Channel: hello@hexlab.xyz</span></div><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-status-online"></span><span class="font-code-sm text-code-sm text-text-tertiary">Encrypted Dispatch Ready // Official Research &amp; Advisory Channel</span></div></div><!-- Footer Navigation Anchor Links --><div class="flex flex-wrap items-center gap-space-md"><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#about">About</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#experience">Experience</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#skills">Skills</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#cves">CVE Registry</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#projects">Projects</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#certifications">Certifications</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="#contact">Contact</a></div></div><!-- Footer Social Matrix with SVGs --><div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs border-t border-white/5"><div class="flex items-center gap-3"><a aria-label="GitHub" class="p-1.5 text-text-tertiary hover:text-primary transition-colors" href="https://github.com/neutrinoguy" rel="noopener noreferrer" target="_blank" title="GitHub"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"></path></svg></a><a aria-label="X / Twitter" class="p-1.5 text-text-tertiary hover:text-secondary transition-colors" href="https://x.com/neutrinoguy" rel="noopener noreferrer" target="_blank" title="X"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a><a aria-label="LinkedIn" class="p-1.5 text-text-tertiary hover:text-primary transition-colors" href="https://linkedin.com/in/neutrinoguy" rel="noopener noreferrer" target="_blank" title="LinkedIn"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg></a><a aria-label="Medium" class="p-1.5 text-text-tertiary hover:text-secondary transition-colors" href="https://neutrinoguy.medium.com" rel="noopener noreferrer" target="_blank" title="Medium"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"></path></svg></a><a aria-label="RSS Feed" class="p-1.5 text-text-tertiary hover:text-primary transition-colors" href="https://hexlab.xyz/feed.xml" rel="noopener noreferrer" target="_blank" title="RSS Feed"><svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93v-2.83z"></path></svg></a></div><div class="flex items-center gap-space-xs"><span class="font-label-caps text-label-caps text-text-tertiary uppercase">Defense Protocol:</span><span class="font-code-sm text-code-sm text-secondary uppercase">DEFCON-4 // NORMAL READINESS</span></div></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm"><p class="font-code-sm text-code-sm text-text-tertiary">© 2026 Aagam Shah (neutrinoguy). Bugs 🐞 and Shrugs 🤷. All rights reserved.</p></div></div></footer>
+<!-- Vanilla JavaScript for Smooth Offset Scrolling & Animated Paced Live Terminal -->
+<script>
+  
+  // Mobile Navigation Drawer Toggle
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const mobileMenuIcon = document.getElementById('mobile-menu-icon');
+  if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isHidden = mobileMenu.classList.contains('hidden');
+      if (isHidden) {
+        mobileMenu.classList.remove('hidden');
+        if (mobileMenuIcon) mobileMenuIcon.textContent = 'close';
+      } else {
+        mobileMenu.classList.add('hidden');
+        if (mobileMenuIcon) mobileMenuIcon.textContent = 'menu';
+      }
+    });
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        if (mobileMenuIcon) mobileMenuIcon.textContent = 'menu';
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+        mobileMenu.classList.add('hidden');
+        if (mobileMenuIcon) mobileMenuIcon.textContent = 'menu';
+      }
+    });
+  }
+
+  // 1. Smooth Navigation with Header Offset Handling
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+      if (targetId === '#' || targetId === '') return;
+      const targetEl = document.querySelector(targetId);
+      if (targetEl) {
+        e.preventDefault();
+        const headerOffset = 68;
+        const elementPosition = targetEl.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // 2. Animated Readable Live Terminal Simulation (30-40ms/char, 1.5s pause after output)
+  (function initLiveTerminal() {
+    const typedCmdEl = document.getElementById('terminal-typed-cmd');
+    const historyEl = document.getElementById('terminal-history');
+    const closeBtn = document.getElementById('term-btn-close');
+    const pauseBtn = document.getElementById('term-btn-pause');
+    const replayBtn = document.getElementById('term-btn-replay');
+
+    if (!typedCmdEl || !historyEl) return;
+
+    let isPaused = false;
+    let sequenceIndex = 0;
+    let charIndex = 0;
+    let timeoutId = null;
+
+    const routines = [
+      {
+        cmd: 'whoami',
+        output: '<p><span class="text-text-primary font-bold">neutrinoguy</span> <span class="text-text-tertiary">[Aagam Shah]</span></p><p class="text-secondary">&gt; Cyber Security Technical Lead @ ABB · Bugs 🐞 and Shrugs 🤷</p>'
+      },
+      {
+        cmd: 'cat /proc/cve_status',
+        output: '<p class="text-status-critical font-bold">&gt; <a href="https://www.cisa.gov/uscert/ics/advisories/icsa-22-032-02" target="_blank" class="hover:underline">CVE-2022-22987</a>: Advantech ADAM-3600 (ICSA-22-032-02) <span class="text-primary">[PATCHED]</span></p><p class="text-secondary">&gt; <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24181" target="_blank" class="hover:underline">CVE-2023-24181</a> &amp; <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24182" target="_blank" class="hover:underline">CVE-2023-24182</a>: OpenWrt LuCI <span class="text-secondary">[COORDINATED]</span></p>'
+      },
+      {
+        cmd: 'mitre-attack --ics',
+        output: '<p class="text-text-mono-accent">&gt; Contributor to <a href="https://attack.mitre.org/techniques/T1694/002/" target="_blank" class="text-secondary underline hover:text-primary font-bold">MITRE ATT&amp;CK for ICS (T1694/002)</a></p><p class="text-text-tertiary">&gt; Technique: Hardcoded Credentials</p>'
+      },
+      {
+        cmd: 'cat /var/log/hall_of_fame',
+        output: '<p class="text-text-mono-accent">&gt; Ack: United Nations, Sony, Alibaba, Opera, Sophos, Honeywell, Intel, Naver, NCIIPC</p>'
+      },
+      {
+        cmd: 'get-clearance --active',
+        output: '<p class="text-text-mono-accent">&gt; ISO 27001:2013 | IEC 62443-4-1:2018 <span class="text-primary font-bold">[CERTIFIED]</span></p>'
+      },
+      {
+        cmd: 'status --daemon',
+        output: '<p class="text-text-mono-accent font-semibold">&gt; ARMED: Active ICS/SCADA protocol fuzzing &amp; AI Security Co-pilot online 🐲</p>'
+      }
+    ];
+
+    function stepTyping() {
+      if (isPaused) {
+        timeoutId = setTimeout(stepTyping, 200);
+        return;
+      }
+
+      const current = routines[sequenceIndex];
+      if (charIndex < current.cmd.length) {
+        typedCmdEl.textContent += current.cmd.charAt(charIndex);
+        charIndex++;
+        // readable typing speed: 30-40ms per character
+        timeoutId = setTimeout(stepTyping, 30 + Math.floor(Math.random() * 10));
+      } else {
+        // Command completed, pause before executing output
+        timeoutId = setTimeout(() => {
+          // Commit to history
+          const commandLine = document.createElement('div');
+          commandLine.className = 'flex flex-col gap-1 pb-1 border-b border-white/5';
+          commandLine.innerHTML = `<div class="text-text-primary font-bold"><span class="text-primary">&gt;</span> $ ${current.cmd}</div><div class="pl-3">${current.output}</div>`;
+          historyEl.appendChild(commandLine);
+
+          // Keep history compact
+          if (historyEl.children.length > 4) {
+            historyEl.removeChild(historyEl.children[0]);
+          }
+
+          // Clear current typed line
+          typedCmdEl.textContent = '';
+          charIndex = 0;
+          sequenceIndex = (sequenceIndex + 1) % routines.length;
+
+          // 1.5s pause after output so reader digests
+          timeoutId = setTimeout(stepTyping, 1500);
+        }, 650);
+      }
+    }
+
+    // Terminal Controls
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', () => {
+        isPaused = !isPaused;
+        pauseBtn.title = isPaused ? "Resume Terminal" : "Pause Terminal";
+      });
+    }
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => {
+        historyEl.innerHTML = '<span class="text-text-tertiary italic">// buffer cleared by user</span>';
+        typedCmdEl.textContent = '';
+        charIndex = 0;
+      });
+    }
+
+    if (replayBtn) {
+      replayBtn.addEventListener('click', () => {
+        clearTimeout(timeoutId);
+        historyEl.innerHTML = '';
+        typedCmdEl.textContent = '';
+        sequenceIndex = 0;
+        charIndex = 0;
+        isPaused = false;
+        stepTyping();
+      });
+    }
+
+    // Start with slight initial delay
+    timeoutId = setTimeout(stepTyping, 800);
+  })();
+</script>
+</body></html>
 
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Profolio Bootstrap 5 Template">
-	<meta name="author" content="neutrinoguy">
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
-
-	<!-- Bootstrpa Icons -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
-	<!-- FontAwesome JS -->
-	<script defer src="assets/fontawesome/js/all.js"></script>
-
-	<!-- Theme CSS  
-	<link id="theme-style" rel="stylesheet" href="assets/css/risen.css"> -->
-
-	<!-- Plugin CSS -->
-	<link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
-
-	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
-	<link rel="stylesheet" href="assets/css/custom.css">
-
-</head>
-
-
-<body>
-
-	<div class="container-fluid">
-
-		<div class="main-content-wrapper">
-			<div class="container-fluid">
-				<div class="top-bar text-center position-relative">
-					<div class="top-bar-inner">
-
-						<!-- Dark Mode -->
-
-						<div class="mode-toggle text-center">
-
-							<input class="toggle" id="darkmode" type="checkbox">
-							<label class="toggle-btn mx-auto mb-0" for="darkmode">
-								<span class="day-icon toggle-icon"> <i class="bi bi-sun-fill"></i></span>
-								<span class="night-icon toggle-icon"><i class="bi bi-moon-fill"></i></span>
-
-							</label>
-
-						</div>
-
-						<!-- Dark mode -->
-
-						<a class="btn btn-primary top-bar-cta" href="mailto:hello@hexlab.xyz">Contact Me</a>
-
-						<ul class="social-list list-inline mx-auto">
-							<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://x.com/neutrinoguy"
-									target="_blank"><i class="fa-brands fa-twitter fa-fw"></i></a></li>
-							<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://github.com/neutrinoguy"
-									target="_blank"><i class="fa-brands fa-github fa-fw"></i></a></li>
-
-							<li class="list-inline-item me-0 me-md-1 me-lg-2"><a
-									href="https://linkedin.com/in/neutrinoguy" target="_blank"><i
-										class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
-
-							<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://neutrinoguy.medium.com"
-									target="_blank"><i class="fa-brands fa-medium fa-fw"></i></a></li>
-
-							<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://hexlab.xyz/feed.xml"
-									target="_blank"><i class="fa-solid fa-rss"></i></a></li>
-
-
-						</ul><!--//social-list-->
-
-					</div><!--//top-bar-inner-->
-
-				</div><!--//top-bar-->
-
-				<div class="resume-wrapper mx-auto rounded-2">
-					<div class="resume-header px-4 px-lg-5">
-						<div class="resume-profile-holder text-center">
-							<img class="resume-profile-pic rounded-circle" src="assets/images/profile.jpeg" alt="image">
-
-							<h2 class="resume-name text-uppercase">Aagam Shah</h2>
-							<h4>aka (neutrinoguy)</h4>
-							<div class="resume-role-title text-uppercase"> LEARNER | CYBER SECURITY ENGINEER | Bugs 🐞
-								and Shrugs 🤷</div>
-							<div class="resume-contact mt-4">
-								<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
-									<li class="list-inline-item me-md-3 me-lg-5"><a href="mailto:hello@hexlab.xyz"><i
-												class="resume-contact-icon bi bi-envelope me-2"></i>
-											hello@hexlab.xyz</a>
-									</li>
-									<li class="list-inline-item me-lg-5"><a href="https://hexlab.xyz" target="_blank"><i
-												class="resume-contact-icon bi bi-globe me-2"></i>
-											hexlab.xyz</a></li>
-
-								</ul>
-							</div><!--//resume-contact-->
-						</div><!--//profile-holder-->
-					</div><!--//resume-header-->
-
-					<div class="resume-body p-4 p-lg-5">
-						<div class="row">
-							<div class="col-main col-12 col-lg-8 pe-lg-4">
-								<section class="resume-summary-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3"><i
-											class="resume-section-heading-icon bi bi-person me-2"></i>About Me</h3>
-									<div class="resume-summary-desc">
-										I am highly motivated to pursue a career in cybersecurity and leverage my skills
-										and knowledge to optimize the efficiency and effectiveness of assigned tasks. I
-										am passionate about contributing to the cybersecurity community by developing
-										open-source security tools and sharing my learnings through detailed write-ups
-										on various security techniques.
-									</div>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-experience-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience
-									</h3>
-									<div class="resume-timeline position-relative">
-										<article class="resume-timeline-item position-relative pb-5">
-
-											<div class="resume-timeline-item-header mb-2">
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">Jun 2024 – Present</div>
-													<div class="resume-company-name">ABB</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Cyber Security Technical Lead
-												</h3>
-												<div class="text-muted small mb-2">Bengaluru, Karnataka, India · Hybrid
-												</div>
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-													<li><strong>Penetration Testing:</strong> Expert in comprehensive
-														testing across embedded devices, cloud, APIs, mobile apps, and
-														thick clients.</li>
-													<li><strong>Threat Modelling:</strong> Lead thorough threat
-														modelling for products in the design phase.</li>
-													<li><strong>Vulnerability Research:</strong> Specialise in ICS
-														protocol vulnerability research.</li>
-													<li><strong>Subject Matter Expert:</strong> Serve as a Cybersecurity
-														SME and mentor emerging talent.</li>
-													<li><strong>Scrum Master:</strong> Manage team planning and effort
-														monitoring duties.</li>
-													<li><strong>Compliance & Audit:</strong> Drove successful audits for
-														ISO 27001:2013 and IEC 62443-4-1:2018 certifications.</li>
-													<li><strong>Innovation:</strong> Explore AI applications in
-														cybersecurity and identify zero-day vulnerabilities in
-														third-party products.</li>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-										</article><!--//resume-timeline-item-->
-
-										<article class="resume-timeline-item position-relative pb-5">
-
-											<div class="resume-timeline-item-header mb-2">
-
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">Nov 2021 – Jun 2024</div>
-													<div class="resume-company-name">ABB</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Senior Cyber Security Engineer
-												</h3>
-
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-													<li>Firmware Analysis & Threat Modelling</li>
-													<li>Penetration Testing</li>
-													<li>Security Proof of Concepts</li>
-													<li>Handling Scrum Activities</li>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-
-										</article><!--//resume-timeline-item-->
-
-										<article class="resume-timeline-item position-relative pb-5">
-
-											<div class="resume-timeline-item-header mb-2">
-
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">June 2020 – Oct 2021</div>
-													<div class="resume-company-name">ABB</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Cyber Security Engineer</h3>
-
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-													<li>Threat modelling</li>
-													<li>Penetration testing of ICS systems</li>
-													<li>DevSecOps</li>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-
-										</article><!--//resume-timeline-item-->
-
-										<article class="resume-timeline-item position-relative pb-5">
-
-											<div class="resume-timeline-item-header mb-2">
-
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">June 2019 – May 2020</div>
-													<div class="resume-company-name">ABB</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Cyber Security Intern</h3>
-
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-													<li>Penetration testing of Embedded Systems</li>
-													<li>Fuzzing protocols</li>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-
-										</article><!--//resume-timeline-item-->
-
-										<article class="resume-timeline-item position-relative pb-5">
-											<div class="resume-timeline-item-header mb-2">
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">Jan 2019 – March 2019</div>
-													<div class="resume-company-name">Cyber Cell Ahmedabad</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Intern</h3>
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-													<li>Worked on multiple ongoing cases.</li>
-													<li>Helped with OSINT activities.</li>
-												</ul>
-											</div><!--//resume-timeline-item-desc-->
-										</article><!--//resume-timeline-item-->
-									</div><!--//resume-timeline-->
-								</section><!--//resume-experience-section-->
-							</div><!--//col-8-->
-							<div class="col-12 col-lg-4 ps-lg-4">
-
-								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Skills</h3>
-
-									<ul class="list-unstyled">
-										<li class="mb-2">
-											<div class="resume-skill-name">Python & Scripting (C, Bash, PHP)</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Skill"
-												aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 92%"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">Linux & RTOS</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Skill"
-												aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 95%"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">VAPT & Tools (Burp, MSF)</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Skill"
-												aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 90%"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">ICS Security</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Skill"
-												aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 85%"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">Cloud/DevOps (Azure, Docker)</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Skill"
-												aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-											</div>
-										</li>
-									</ul>
-
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills
-									</h3>
-									<ul class="list-inline">
-										<li class="list-inline-item"><span
-												class="badge resume-skill-badge">Leadship</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Project
-												Management</span></li>
-
-										<li class="list-inline-item"><span
-												class="badge resume-skill-badge">DevOps</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Public
-												Speaking</span></li>
-
-
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-projects-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
-									<div class="item">
-										<h4 class="item-heading"><i class="item-icon bi bi-github me-2"></i><a
-												href="https://github.com/neutrinoguy/devicestats"
-												target="_blank">Devicestats (Drozer Module)</a></h4>
-										<div class="item-desc">
-											Drozer module to extract device information (Repo:
-											github.com/neutrinoguy/devicestats)
-										</div>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-heading"><i
-												class="item-icon bi bi-square-fill me-2"></i>Awesome-ICS-Writeups</h4>
-										<div class="item-desc">
-											Collection of ICS/SCADA security writeups.
-										</div>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-heading"><i class="item-icon bi bi-cloud-fill me-2"></i>Honeypot
-											over Cloud (ELK)</h4>
-										<div class="item-desc">
-											Implemented Cowrie and adbhoney over GCP with analytics.
-										</div>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-heading"><i
-												class="item-icon bi bi-shield-fill-check me-2"></i>Sinkhole using
-											Raspberry Pi</h4>
-										<div class="item-desc">
-											Custom DNS setup to block ads & malware domains in LAN.
-										</div>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-heading"><i
-												class="item-icon bi bi-bounding-box me-2"></i>Drixler: Number Plate
-											Extraction</h4>
-										<div class="item-desc">
-											Used Python, OpenCV, and Tesseract to extract number plates from images.
-										</div>
-									</div><!--//item-->
-								</section>
-								<hr>
-
-								<section class="resume-educate-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
-									<ul class="list-unstyled">
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">M-Tech Cyber Security & Incident
-												Response</div>
-											<div class="resume-degree-org">Gujarat Forensic Sciences University (NFSU)
-											</div>
-											<div class="resume-degree-time">2018 - 2020</div>
-										</li>
-										<li>
-											<div class="resume-degree font-weight-bold">B.Tech Computer Engineering
-											</div>
-											<div class="resume-degree-org">Gujarat Technological University (GTU)</div>
-											<div class="resume-degree-time">2014 - 2018</div>
-										</li>
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-educate-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-award me-2"></i>Certifications</h3>
-									<ul class="list-unstyled">
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">ISA/IEC 62443 Cybersecurity
-												Expert</div>
-											<div class="resume-degree-org">All four certifications completed</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">CEH (Certified Ethical Hacker)
-												v13</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Docker Certified Associate</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">AZ-900: Azure Fundamentals</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Achilles Certified Tester</div>
-										</li>
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-educate-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-trophy me-2"></i>Achievements</h3>
-									<ul class="list-unstyled">
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Reported multiple CVEs</div>
-											<div class="resume-degree-org">CVE-2022-22987, CVE-2023-24181/24182</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Acknowledgements</div>
-											<div class="resume-degree-org">Honeywell, Sony, Sophos, Alibaba, AlienVault,
-												NCIIPC, Dutch Government</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Multiple Awards</div>
-											<div class="resume-degree-org">X-Tra Miler and Star Performer at ABB</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Top 50 - Nullcon HackIM CTF 2019
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">Top 3 India - Pragyan CTF 2017
-											</div>
-										</li>
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-educate-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-heart-fill me-2"></i>Open Source
-										Contributions</h3>
-									<ul class="list-unstyled">
-										<li class="mb-2">Content Contributor to <strong>MITRE ATT&CK for ICS</strong>
-											(Technique T0891)</li>
-										<li class="mb-2">Contributor to CVSS 4.0 SIG & MITRE ICS/OT SIG</li>
-										<li class="mb-2">Added CSAF feeds to Vulnerability Lookup Project by CIRCL</li>
-										<li class="mb-2">Open Source Contributor (EMBA, Photon, Reconnoitre)</li>
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-lang-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
-									<ul class="list-unstyled resume-lang-list">
-										<li class="mb-2">
-											<div class="resume-lang-name">English</div>
-											<div class="resume-level-indicator row gx-0 flex-nowrap">
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-half"></span></div>
-											</div><!--//resume-level-indicator-->
-										</li>
-										<li class="mb-2">
-											<div class="resume-lang-name">Gujarati</div>
-											<div class="resume-level-indicator row gx-0 flex-nowrap">
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-half"></span></div>
-												<div class="col"><span class="item"></span></div>
-											</div><!--//resume-level-indicator-->
-										</li>
-										<li class="mb-2">
-											<div class="resume-lang-name">Hindi</div>
-											<div class="resume-level-indicator row gx-0 flex-nowrap">
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-half"></span></div>
-												<div class="col"><span class="item"></span></div>
-											</div><!--//resume-level-indicator-->
-										</li>
-									</ul>
-								</section>
-
-
-
-							</div><!--//col-side-->
-						</div><!--//row-->
-					</div><!--//resume-body-->
-				</div><!--//resume-wrapper-->
-			</div><!--//container-fluid-->
-		</div><!--//main-content-wrapper-->
-
-
-	</div><!--//row-->
-
-	</div><!--//container-->
-
-	<!-- Dark/Light Mode Toggle  -->
-	<script src="assets/plugins/js-cookie.min.js"></script>
-	<script src="assets/js/mode-toggle.js"></script>
-
-	<footer class="footer text-center py-4">
-		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill"
-				style="color:#fe655c"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com"
-				target="_blank">Xiaoying Riley</a></small>
-	</footer>
-
-</body>

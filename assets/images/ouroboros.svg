@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <radialGradient id="cyberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15"/>
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadowGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#10b981" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="#0b0e15"/>
+  <circle cx="120" cy="120" r="116" fill="url(#cyberGlow)"/>
+  <circle cx="120" cy="120" r="114" fill="none" stroke="#10b981" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.4"/>
+  <!-- Vectorized Ouroboros Cyber Serpent -->
+  <g transform="translate(15, 15) scale(0.875)" filter="url(#shadowGlow)">
+    <path fill="#10b981" d="M120 20 C175 20 220 65 220 120 C220 175 175 220 120 220 C65 220 20 175 20 120 C20 78 45 42 82 27 L88 38 C56 51 34 83 34 120 C34 167 73 206 120 206 C167 206 206 167 206 120 C206 73 167 34 120 34 C108 34 96 36 86 41 L80 30 C92 24 106 20 120 20 Z"/>
+    <!-- Scales & Cyber Ridges -->
+    <path fill="#059669" d="M120 42 C163 42 198 77 198 120 C198 163 163 198 120 198 C77 198 42 163 42 120 C42 98 51 79 66 65 L76 74 C64 86 56 102 56 120 C56 155 85 184 120 184 C155 184 184 155 184 120 C184 85 155 56 120 56 C111 56 102 58 94 62 L87 50 C97 45 108 42 120 42 Z"/>
+    <!-- Head consuming tail -->
+    <path fill="#34d399" d="M82 25 L108 14 L102 36 L124 28 L114 46 L95 52 L84 38 Z"/>
+    <!-- Eye -->
+    <circle cx="98" cy="32" r="3.5" fill="#ffffff"/>
+    <circle cx="98" cy="32" r="1.8" fill="#000000"/>
+    <!-- Spikes along outer spine -->
+    <polygon points="150,22 155,10 162,25" fill="#10b981"/>
+    <polygon points="180,38 192,28 190,46" fill="#10b981"/>
+    <polygon points="208,68 222,62 214,80" fill="#10b981"/>
+    <polygon points="220,105 234,106 222,118" fill="#10b981"/>
+    <polygon points="216,145 228,154 212,158" fill="#10b981"/>
+    <polygon points="196,180 204,195 188,192" fill="#10b981"/>
+    <polygon points="160,208 164,224 150,216" fill="#10b981"/>
+    <polygon points="120,218 118,234 108,220" fill="#10b981"/>
+    <polygon points="78,210 70,224 65,208" fill="#10b981"/>
+    <polygon points="45,182 32,192 38,176" fill="#10b981"/>
+    <polygon points="24,146 10,148 20,134" fill="#10b981"/>
+    <polygon points="22,102 8,96 22,88" fill="#10b981"/>
+    <polygon points="36,66 26,54 42,56" fill="#10b981"/>
+    <!-- Inner fangs and spines -->
+    <polygon points="135,178 140,165 145,178" fill="#059669"/>
+    <polygon points="165,152 170,138 174,152" fill="#059669"/>
+    <polygon points="174,115 160,112 174,105" fill="#059669"/>
+    <polygon points="162,80 152,88 155,75" fill="#059669"/>
+    <polygon points="135,62 130,75 125,62" fill="#059669"/>
+  </g>
+</svg>
