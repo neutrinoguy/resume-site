@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 — Target Unreachable | Aagam Shah (neutrinoguy)</title>
+  <meta name="robots" content="noindex, follow"/>
+  <link rel="icon" type="image/png" href="/assets/images/dragon.png"/>
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="alternate" type="text/markdown" href="/Resume.md" title="Machine-Readable Resume"/>
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="Agent Manifest"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            surface: "#10131a",
+            "surface-card": "#121824",
+            primary: "#4edea3",
+            "primary-container": "#10b981",
+            "text-primary": "#f8fafc",
+            "text-secondary": "#94a3b8",
+            "text-tertiary": "#64748b",
+            "text-mono-accent": "#34d399",
+            "status-critical": "#ef4444"
+          },
+          fontFamily: {
+            mono: ["JetBrains Mono", "monospace"],
+            sans: ["Plus Jakarta Sans", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-surface font-sans text-text-primary min-h-screen flex flex-col justify-between antialiased selection:bg-primary-container selection:text-surface">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl border-b border-white/5">
+    <div class="h-16 max-w-[1280px] mx-auto px-4 flex items-center justify-between">
+      <a class="flex items-center gap-2.5 group" href="/">
+        <div class="w-9 h-9 rounded-full ring-2 ring-primary/60 group-hover:ring-primary transition-all bg-surface-card flex items-center justify-center text-[20px] select-none shadow-[0_0_12px_rgba(16,185,129,0.3)]">
+          🐲
+        </div>
+        <div class="flex flex-col">
+          <span class="font-mono text-sm text-text-primary font-bold group-hover:text-primary transition-colors">neutrinoguy</span>
+          <span class="font-mono text-[10px] text-text-mono-accent uppercase tracking-wider">Aagam Shah // Cyber Security</span>
+        </div>
+      </a>
+      <nav class="flex items-center gap-4 text-xs font-mono uppercase tracking-wider">
+        <a class="text-text-secondary hover:text-primary transition-colors" href="/">Home</a>
+        <a class="text-text-secondary hover:text-primary transition-colors" href="/about">About</a>
+        <a class="text-text-secondary hover:text-primary transition-colors" href="/contact">Contact</a>
+        <a class="text-text-secondary hover:text-primary transition-colors" href="/privacy">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1 flex items-center justify-center px-4 pt-24 pb-12">
+    <div class="max-w-xl w-full text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded border border-status-critical/30 bg-status-critical/10 text-status-critical text-xs font-mono mb-6">
+        <span class="w-2 h-2 rounded-full bg-status-critical animate-ping"></span>
+        HTTP 404: ROUTE_UNRESOLVED
+      </div>
+
+      <h1 class="text-6xl sm:text-7xl font-mono font-bold text-text-primary tracking-tight mb-4">
+        404
+      </h1>
+
+      <h2 class="text-xl sm:text-2xl font-bold text-text-primary mb-3">
+        Target Endpoint Not Found
+      </h2>
+
+      <p class="text-text-secondary text-sm sm:text-base leading-relaxed mb-8 font-sans">
+        The requested resource has been quarantined, relocated, or does not exist in the routing table. If you are an automated AI agent, pass <code class="font-mono text-primary bg-surface-card px-1.5 py-0.5 rounded border border-white/5">Accept: text/markdown</code> to receive the machine-readable payload.
+      </p>
+
+      <div class="p-6 rounded-lg bg-surface-card border border-white/5 text-left mb-8 font-mono text-xs text-text-secondary">
+        <div class="text-text-mono-accent font-bold mb-3 flex items-center gap-2">
+          <span>// DIRECT RECOVERY VECTORS</span>
+        </div>
+        <ul class="space-y-2">
+          <li>→ <a class="text-primary hover:underline" href="/">/ — Live Security Telemetry Deck</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/about">/about — Technical Profile &amp; Bio</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/contact">/contact — Security Coordination &amp; Inquiries</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/privacy">/privacy — Zero-Tracking Privacy Policy</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/llms.txt">/llms.txt — Agentic Context Manifest</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/agent-instructions.md">/agent-instructions.md — Agent Operating Manual</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/Resume.md">/Resume.md — Clean Markdown Dossier</a></li>
+          <li>→ <a class="text-primary hover:underline" href="/sitemap.xml">/sitemap.xml — Machine Index</a></li>
+        </ul>
+      </div>
+
+      <a href="/" class="inline-flex items-center gap-2 px-6 py-3 rounded bg-primary-container text-surface font-mono font-bold text-sm hover:brightness-110 transition-all shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+        Return to Telemetry Root →
+      </a>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 py-6 text-center text-xs font-mono text-text-tertiary">
+    <p>© 2026 Aagam Shah (neutrinoguy) · All rights reserved.</p>
+  </footer>
+</body>
+</html>

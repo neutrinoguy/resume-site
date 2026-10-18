@@ -1,0 +1,9 @@
+{
+  "name": "local-resume-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test_agentic.js"
+  }
+}

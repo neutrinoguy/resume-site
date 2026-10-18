@@ -47,7 +47,9 @@ Allow: /
 # Sitemap
 Sitemap: https://neutrinoguy.zip/sitemap.xml
 
-# LLM Manifest for AI Agents (llmstxt.org standard)
+# LLM Manifests & Agent Instructions (llmstxt.org standard)
 # Direct token-optimized markdown documentation for AI agents:
 # https://neutrinoguy.zip/llms.txt
+# https://neutrinoguy.zip/agent-instructions.md
 # https://neutrinoguy.zip/llms-full.txt
+# https://neutrinoguy.zip/Resume.md
